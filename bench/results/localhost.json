@@ -1,0 +1,6805 @@
+{
+  "label": "localhost",
+  "date": "2026-10-15T16:58:14.592Z",
+  "room": "BZDTCV",
+  "clients": 10,
+  "durationS": 60,
+  "jitterMs": 0,
+  "node": "v22.22.0",
+  "actionsSent": 24,
+  "rejectedStale": 3,
+  "latency": {
+    "n": 181,
+    "p50": 1,
+    "p95": 2.5,
+    "p99": 16,
+    "max": 16
+  },
+  "drift": {
+    "n": 956,
+    "p50": 67,
+    "p95": 280,
+    "p99": 703,
+    "max": 954
+  },
+  "driftMp4": {
+    "n": 501,
+    "p50": 64,
+    "p95": 227,
+    "p99": 776,
+    "max": 954
+  },
+  "driftYoutube": {
+    "n": 455,
+    "p50": 75,
+    "p95": 284,
+    "p99": 441,
+    "max": 869
+  },
+  "driftWithin500": 0.9843096234309623,
+  "events": [
+    {
+      "at": 1973,
+      "client": 2,
+      "ev": "stall"
+    },
+    {
+      "at": 3833,
+      "client": 7,
+      "ev": "stall"
+    },
+    {
+      "at": 4236,
+      "client": 3,
+      "ev": "stall"
+    },
+    {
+      "at": 13448,
+      "client": 5,
+      "ev": "stall"
+    },
+    {
+      "at": 15814,
+      "client": 0,
+      "ev": "stall"
+    },
+    {
+      "at": 21115,
+      "ev": "late-join",
+      "client": 9,
+      "inSyncAfterMs": 101
+    },
+    {
+      "at": 27654,
+      "client": 3,
+      "ev": "stall"
+    },
+    {
+      "at": 32588,
+      "client": 3,
+      "ev": "stall"
+    },
+    {
+      "at": 33645,
+      "client": 6,
+      "ev": "stall"
+    },
+    {
+      "at": 31315,
+      "ev": "reconnect",
+      "client": 3,
+      "offlineMs": 2000,
+      "sameSeat": true,
+      "inSyncAfterMs": 509
+    },
+    {
+      "at": 33846,
+      "client": 0,
+      "ev": "stall"
+    },
+    {
+      "at": 35113,
+      "client": 0,
+      "ev": "stall"
+    },
+    {
+      "at": 37277,
+      "client": 7,
+      "ev": "stall"
+    },
+    {
+      "at": 38636,
+      "client": 8,
+      "ev": "stall"
+    },
+    {
+      "at": 42463,
+      "client": 4,
+      "ev": "stall"
+    },
+    {
+      "at": 43576,
+      "client": 0,
+      "ev": "stall"
+    },
+    {
+      "at": 43877,
+      "client": 5,
+      "ev": "stall"
+    },
+    {
+      "at": 43979,
+      "client": 6,
+      "ev": "stall"
+    },
+    {
+      "at": 54011,
+      "client": 0,
+      "ev": "stall"
+    },
+    {
+      "at": 56879,
+      "client": 7,
+      "ev": "stall"
+    },
+    {
+      "at": 56929,
+      "client": 5,
+      "ev": "stall"
+    },
+    {
+      "at": 60313,
+      "client": 4,
+      "ev": "stall"
+    }
+  ],
+  "pass": {
+    "latencyP95Under250": true,
+    "driftP95Under500": true
+  },
+  "rawLatency": [
+    {
+      "ms": 1,
+      "action": "play",
+      "to": 1
+    },
+    {
+      "ms": 1,
+      "action": "play",
+      "to": 2
+    },
+    {
+      "ms": 1,
+      "action": "play",
+      "to": 3
+    },
+    {
+      "ms": 1.5,
+      "action": "play",
+      "to": 4
+    },
+    {
+      "ms": 1,
+      "action": "play",
+      "to": 5
+    },
+    {
+      "ms": 1,
+      "action": "play",
+      "to": 6
+    },
+    {
+      "ms": 1,
+      "action": "play",
+      "to": 7
+    },
+    {
+      "ms": 1,
+      "action": "play",
+      "to": 8
+    },
+    {
+      "ms": 1,
+      "action": "pause",
+      "to": 0
+    },
+    {
+      "ms": 1,
+      "action": "pause",
+      "to": 1
+    },
+    {
+      "ms": 2,
+      "action": "pause",
+      "to": 2
+    },
+    {
+      "ms": 2.5,
+      "action": "pause",
+      "to": 4
+    },
+    {
+      "ms": 2,
+      "action": "pause",
+      "to": 5
+    },
+    {
+      "ms": 2,
+      "action": "pause",
+      "to": 6
+    },
+    {
+      "ms": 2,
+      "action": "pause",
+      "to": 7
+    },
+    {
+      "ms": 2,
+      "action": "pause",
+      "to": 8
+    },
+    {
+      "ms": 1,
+      "action": "play",
+      "to": 0
+    },
+    {
+      "ms": 1,
+      "action": "play",
+      "to": 1
+    },
+    {
+      "ms": 1,
+      "action": "play",
+      "to": 2
+    },
+    {
+      "ms": 2.5,
+      "action": "play",
+      "to": 4
+    },
+    {
+      "ms": 2,
+      "action": "play",
+      "to": 5
+    },
+    {
+      "ms": 2,
+      "action": "play",
+      "to": 6
+    },
+    {
+      "ms": 2,
+      "action": "play",
+      "to": 7
+    },
+    {
+      "ms": 2,
+      "action": "play",
+      "to": 8
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 0
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 1
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 2
+    },
+    {
+      "ms": 2,
+      "action": "seek",
+      "to": 3
+    },
+    {
+      "ms": 2.5,
+      "action": "seek",
+      "to": 4
+    },
+    {
+      "ms": 16,
+      "action": "seek",
+      "to": 5
+    },
+    {
+      "ms": 16,
+      "action": "seek",
+      "to": 6
+    },
+    {
+      "ms": 16,
+      "action": "seek",
+      "to": 7
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 0
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 1
+    },
+    {
+      "ms": 2,
+      "action": "seek",
+      "to": 2
+    },
+    {
+      "ms": 2,
+      "action": "seek",
+      "to": 3
+    },
+    {
+      "ms": 2.5,
+      "action": "seek",
+      "to": 4
+    },
+    {
+      "ms": 2,
+      "action": "seek",
+      "to": 6
+    },
+    {
+      "ms": 2,
+      "action": "seek",
+      "to": 7
+    },
+    {
+      "ms": 2,
+      "action": "seek",
+      "to": 8
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 0
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 2
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 3
+    },
+    {
+      "ms": 1.5,
+      "action": "seek",
+      "to": 4
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 5
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 6
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 7
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 8
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 1
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 2
+    },
+    {
+      "ms": 2,
+      "action": "seek",
+      "to": 3
+    },
+    {
+      "ms": 2.5,
+      "action": "seek",
+      "to": 4
+    },
+    {
+      "ms": 2,
+      "action": "seek",
+      "to": 5
+    },
+    {
+      "ms": 2,
+      "action": "seek",
+      "to": 6
+    },
+    {
+      "ms": 2,
+      "action": "seek",
+      "to": 7
+    },
+    {
+      "ms": 2,
+      "action": "seek",
+      "to": 8
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 0
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 1
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 2
+    },
+    {
+      "ms": 2.5,
+      "action": "seek",
+      "to": 4
+    },
+    {
+      "ms": 2,
+      "action": "seek",
+      "to": 5
+    },
+    {
+      "ms": 2,
+      "action": "seek",
+      "to": 6
+    },
+    {
+      "ms": 2,
+      "action": "seek",
+      "to": 7
+    },
+    {
+      "ms": 2,
+      "action": "seek",
+      "to": 8
+    },
+    {
+      "ms": 1.5,
+      "action": "seek",
+      "to": 9
+    },
+    {
+      "ms": 1,
+      "action": "pause",
+      "to": 0
+    },
+    {
+      "ms": 1,
+      "action": "pause",
+      "to": 1
+    },
+    {
+      "ms": 1,
+      "action": "pause",
+      "to": 2
+    },
+    {
+      "ms": 1,
+      "action": "pause",
+      "to": 3
+    },
+    {
+      "ms": 1.5,
+      "action": "pause",
+      "to": 4
+    },
+    {
+      "ms": 1,
+      "action": "pause",
+      "to": 6
+    },
+    {
+      "ms": 1,
+      "action": "pause",
+      "to": 7
+    },
+    {
+      "ms": 1,
+      "action": "pause",
+      "to": 8
+    },
+    {
+      "ms": 0.5,
+      "action": "pause",
+      "to": 9
+    },
+    {
+      "ms": 1,
+      "action": "play",
+      "to": 0
+    },
+    {
+      "ms": 1,
+      "action": "play",
+      "to": 1
+    },
+    {
+      "ms": 1,
+      "action": "play",
+      "to": 2
+    },
+    {
+      "ms": 1,
+      "action": "play",
+      "to": 3
+    },
+    {
+      "ms": 1.5,
+      "action": "play",
+      "to": 4
+    },
+    {
+      "ms": 1,
+      "action": "play",
+      "to": 6
+    },
+    {
+      "ms": 1,
+      "action": "play",
+      "to": 7
+    },
+    {
+      "ms": 1,
+      "action": "play",
+      "to": 8
+    },
+    {
+      "ms": 0.5,
+      "action": "play",
+      "to": 9
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 0
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 1
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 2
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 3
+    },
+    {
+      "ms": 1.5,
+      "action": "seek",
+      "to": 4
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 5
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 7
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 8
+    },
+    {
+      "ms": 0.5,
+      "action": "seek",
+      "to": 9
+    },
+    {
+      "ms": 0.5,
+      "action": "seek",
+      "to": 0
+    },
+    {
+      "ms": 0.5,
+      "action": "seek",
+      "to": 1
+    },
+    {
+      "ms": 0.5,
+      "action": "seek",
+      "to": 2
+    },
+    {
+      "ms": 0.5,
+      "action": "seek",
+      "to": 5
+    },
+    {
+      "ms": 1.5,
+      "action": "seek",
+      "to": 6
+    },
+    {
+      "ms": 1.5,
+      "action": "seek",
+      "to": 7
+    },
+    {
+      "ms": 1.5,
+      "action": "seek",
+      "to": 8
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 9
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 1
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 2
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 3
+    },
+    {
+      "ms": 1.5,
+      "action": "seek",
+      "to": 4
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 5
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 6
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 7
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 8
+    },
+    {
+      "ms": 0.5,
+      "action": "seek",
+      "to": 9
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 1
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 2
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 3
+    },
+    {
+      "ms": 1.5,
+      "action": "seek",
+      "to": 4
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 5
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 6
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 7
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 8
+    },
+    {
+      "ms": 0.5,
+      "action": "seek",
+      "to": 9
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 0
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 1
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 2
+    },
+    {
+      "ms": 1.5,
+      "action": "seek",
+      "to": 4
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 5
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 6
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 7
+    },
+    {
+      "ms": 2,
+      "action": "seek",
+      "to": 8
+    },
+    {
+      "ms": 1.5,
+      "action": "seek",
+      "to": 9
+    },
+    {
+      "ms": 1,
+      "action": "pause",
+      "to": 0
+    },
+    {
+      "ms": 1,
+      "action": "pause",
+      "to": 2
+    },
+    {
+      "ms": 1,
+      "action": "pause",
+      "to": 3
+    },
+    {
+      "ms": 1.5,
+      "action": "pause",
+      "to": 4
+    },
+    {
+      "ms": 1,
+      "action": "pause",
+      "to": 5
+    },
+    {
+      "ms": 2,
+      "action": "pause",
+      "to": 6
+    },
+    {
+      "ms": 2,
+      "action": "pause",
+      "to": 7
+    },
+    {
+      "ms": 2,
+      "action": "pause",
+      "to": 8
+    },
+    {
+      "ms": 1.5,
+      "action": "pause",
+      "to": 9
+    },
+    {
+      "ms": 1,
+      "action": "play",
+      "to": 0
+    },
+    {
+      "ms": 1,
+      "action": "play",
+      "to": 2
+    },
+    {
+      "ms": 1,
+      "action": "play",
+      "to": 3
+    },
+    {
+      "ms": 1.5,
+      "action": "play",
+      "to": 4
+    },
+    {
+      "ms": 1,
+      "action": "play",
+      "to": 5
+    },
+    {
+      "ms": 1,
+      "action": "play",
+      "to": 6
+    },
+    {
+      "ms": 1,
+      "action": "play",
+      "to": 7
+    },
+    {
+      "ms": 1,
+      "action": "play",
+      "to": 8
+    },
+    {
+      "ms": 0.5,
+      "action": "play",
+      "to": 9
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 0
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 1
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 2
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 3
+    },
+    {
+      "ms": 1.5,
+      "action": "seek",
+      "to": 4
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 5
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 6
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 7
+    },
+    {
+      "ms": 0.5,
+      "action": "seek",
+      "to": 9
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 0
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 1
+    },
+    {
+      "ms": 2,
+      "action": "seek",
+      "to": 3
+    },
+    {
+      "ms": 2.5,
+      "action": "seek",
+      "to": 4
+    },
+    {
+      "ms": 2,
+      "action": "seek",
+      "to": 5
+    },
+    {
+      "ms": 2,
+      "action": "seek",
+      "to": 6
+    },
+    {
+      "ms": 2,
+      "action": "seek",
+      "to": 7
+    },
+    {
+      "ms": 2,
+      "action": "seek",
+      "to": 8
+    },
+    {
+      "ms": 1.5,
+      "action": "seek",
+      "to": 9
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 0
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 1
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 2
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 3
+    },
+    {
+      "ms": 1.5,
+      "action": "seek",
+      "to": 4
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 5
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 6
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 7
+    },
+    {
+      "ms": 0.5,
+      "action": "seek",
+      "to": 9
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 0
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 1
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 2
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 3
+    },
+    {
+      "ms": 1.5,
+      "action": "seek",
+      "to": 4
+    },
+    {
+      "ms": 1,
+      "action": "seek",
+      "to": 5
+    },
+    {
+      "ms": 2,
+      "action": "seek",
+      "to": 7
+    },
+    {
+      "ms": 2,
+      "action": "seek",
+      "to": 8
+    },
+    {
+      "ms": 1.5,
+      "action": "seek",
+      "to": 9
+    }
+  ],
+  "rawDrift": [
+    {
+      "ms": -49,
+      "client": 0,
+      "kind": "mp4",
+      "at": 1715
+    },
+    {
+      "ms": -47,
+      "client": 1,
+      "kind": "youtube",
+      "at": 1715
+    },
+    {
+      "ms": -50,
+      "client": 2,
+      "kind": "mp4",
+      "at": 1715
+    },
+    {
+      "ms": -49,
+      "client": 3,
+      "kind": "youtube",
+      "at": 1715
+    },
+    {
+      "ms": -50,
+      "client": 4,
+      "kind": "mp4",
+      "at": 1715
+    },
+    {
+      "ms": -50,
+      "client": 5,
+      "kind": "youtube",
+      "at": 1715
+    },
+    {
+      "ms": -51,
+      "client": 6,
+      "kind": "mp4",
+      "at": 1715
+    },
+    {
+      "ms": -50,
+      "client": 7,
+      "kind": "youtube",
+      "at": 1715
+    },
+    {
+      "ms": -49,
+      "client": 8,
+      "kind": "mp4",
+      "at": 1715
+    },
+    {
+      "ms": -50,
+      "client": 0,
+      "kind": "mp4",
+      "at": 2115
+    },
+    {
+      "ms": -45,
+      "client": 1,
+      "kind": "youtube",
+      "at": 2115
+    },
+    {
+      "ms": -49,
+      "client": 3,
+      "kind": "youtube",
+      "at": 2115
+    },
+    {
+      "ms": -50,
+      "client": 4,
+      "kind": "mp4",
+      "at": 2115
+    },
+    {
+      "ms": -50,
+      "client": 5,
+      "kind": "youtube",
+      "at": 2115
+    },
+    {
+      "ms": -52,
+      "client": 6,
+      "kind": "mp4",
+      "at": 2115
+    },
+    {
+      "ms": -52,
+      "client": 7,
+      "kind": "youtube",
+      "at": 2115
+    },
+    {
+      "ms": -48,
+      "client": 8,
+      "kind": "mp4",
+      "at": 2115
+    },
+    {
+      "ms": -50,
+      "client": 0,
+      "kind": "mp4",
+      "at": 2515
+    },
+    {
+      "ms": -43,
+      "client": 1,
+      "kind": "youtube",
+      "at": 2515
+    },
+    {
+      "ms": -50,
+      "client": 3,
+      "kind": "youtube",
+      "at": 2515
+    },
+    {
+      "ms": -50,
+      "client": 4,
+      "kind": "mp4",
+      "at": 2515
+    },
+    {
+      "ms": -51,
+      "client": 5,
+      "kind": "youtube",
+      "at": 2515
+    },
+    {
+      "ms": -54,
+      "client": 6,
+      "kind": "mp4",
+      "at": 2515
+    },
+    {
+      "ms": -53,
+      "client": 7,
+      "kind": "youtube",
+      "at": 2515
+    },
+    {
+      "ms": -48,
+      "client": 8,
+      "kind": "mp4",
+      "at": 2515
+    },
+    {
+      "ms": -51,
+      "client": 0,
+      "kind": "mp4",
+      "at": 2915
+    },
+    {
+      "ms": -42,
+      "client": 1,
+      "kind": "youtube",
+      "at": 2915
+    },
+    {
+      "ms": -852,
+      "client": 2,
+      "kind": "mp4",
+      "at": 2915
+    },
+    {
+      "ms": -50,
+      "client": 3,
+      "kind": "youtube",
+      "at": 2915
+    },
+    {
+      "ms": -50,
+      "client": 4,
+      "kind": "mp4",
+      "at": 2915
+    },
+    {
+      "ms": -52,
+      "client": 5,
+      "kind": "youtube",
+      "at": 2915
+    },
+    {
+      "ms": -56,
+      "client": 6,
+      "kind": "mp4",
+      "at": 2915
+    },
+    {
+      "ms": -55,
+      "client": 7,
+      "kind": "youtube",
+      "at": 2915
+    },
+    {
+      "ms": -47,
+      "client": 8,
+      "kind": "mp4",
+      "at": 2915
+    },
+    {
+      "ms": -51,
+      "client": 0,
+      "kind": "mp4",
+      "at": 3315
+    },
+    {
+      "ms": -40,
+      "client": 1,
+      "kind": "youtube",
+      "at": 3315
+    },
+    {
+      "ms": -814,
+      "client": 2,
+      "kind": "mp4",
+      "at": 3315
+    },
+    {
+      "ms": -50,
+      "client": 3,
+      "kind": "youtube",
+      "at": 3315
+    },
+    {
+      "ms": -50,
+      "client": 4,
+      "kind": "mp4",
+      "at": 3315
+    },
+    {
+      "ms": -53,
+      "client": 5,
+      "kind": "youtube",
+      "at": 3315
+    },
+    {
+      "ms": -58,
+      "client": 6,
+      "kind": "mp4",
+      "at": 3315
+    },
+    {
+      "ms": -57,
+      "client": 7,
+      "kind": "youtube",
+      "at": 3315
+    },
+    {
+      "ms": -47,
+      "client": 8,
+      "kind": "mp4",
+      "at": 3315
+    },
+    {
+      "ms": -51,
+      "client": 0,
+      "kind": "mp4",
+      "at": 3715
+    },
+    {
+      "ms": -38,
+      "client": 1,
+      "kind": "youtube",
+      "at": 3715
+    },
+    {
+      "ms": -776,
+      "client": 2,
+      "kind": "mp4",
+      "at": 3715
+    },
+    {
+      "ms": -50,
+      "client": 3,
+      "kind": "youtube",
+      "at": 3715
+    },
+    {
+      "ms": -50,
+      "client": 4,
+      "kind": "mp4",
+      "at": 3715
+    },
+    {
+      "ms": -54,
+      "client": 5,
+      "kind": "youtube",
+      "at": 3715
+    },
+    {
+      "ms": -60,
+      "client": 6,
+      "kind": "mp4",
+      "at": 3715
+    },
+    {
+      "ms": -58,
+      "client": 7,
+      "kind": "youtube",
+      "at": 3715
+    },
+    {
+      "ms": -47,
+      "client": 8,
+      "kind": "mp4",
+      "at": 3715
+    },
+    {
+      "ms": -52,
+      "client": 0,
+      "kind": "mp4",
+      "at": 4115
+    },
+    {
+      "ms": -36,
+      "client": 1,
+      "kind": "youtube",
+      "at": 4115
+    },
+    {
+      "ms": -737,
+      "client": 2,
+      "kind": "mp4",
+      "at": 4115
+    },
+    {
+      "ms": -51,
+      "client": 3,
+      "kind": "youtube",
+      "at": 4115
+    },
+    {
+      "ms": -50,
+      "client": 4,
+      "kind": "mp4",
+      "at": 4115
+    },
+    {
+      "ms": -54,
+      "client": 5,
+      "kind": "youtube",
+      "at": 4115
+    },
+    {
+      "ms": -61,
+      "client": 6,
+      "kind": "mp4",
+      "at": 4115
+    },
+    {
+      "ms": -46,
+      "client": 8,
+      "kind": "mp4",
+      "at": 4115
+    },
+    {
+      "ms": -52,
+      "client": 0,
+      "kind": "mp4",
+      "at": 4516
+    },
+    {
+      "ms": -35,
+      "client": 1,
+      "kind": "youtube",
+      "at": 4516
+    },
+    {
+      "ms": -700,
+      "client": 2,
+      "kind": "mp4",
+      "at": 4516
+    },
+    {
+      "ms": -51,
+      "client": 4,
+      "kind": "mp4",
+      "at": 4516
+    },
+    {
+      "ms": -56,
+      "client": 5,
+      "kind": "youtube",
+      "at": 4516
+    },
+    {
+      "ms": -64,
+      "client": 6,
+      "kind": "mp4",
+      "at": 4516
+    },
+    {
+      "ms": -361,
+      "client": 7,
+      "kind": "youtube",
+      "at": 4516
+    },
+    {
+      "ms": -47,
+      "client": 8,
+      "kind": "mp4",
+      "at": 4516
+    },
+    {
+      "ms": 21,
+      "client": 0,
+      "kind": "mp4",
+      "at": 6519
+    },
+    {
+      "ms": 23,
+      "client": 1,
+      "kind": "youtube",
+      "at": 6519
+    },
+    {
+      "ms": 20,
+      "client": 2,
+      "kind": "mp4",
+      "at": 6519
+    },
+    {
+      "ms": 21,
+      "client": 3,
+      "kind": "youtube",
+      "at": 6519
+    },
+    {
+      "ms": 20,
+      "client": 4,
+      "kind": "mp4",
+      "at": 6519
+    },
+    {
+      "ms": 20,
+      "client": 5,
+      "kind": "youtube",
+      "at": 6519
+    },
+    {
+      "ms": 19,
+      "client": 6,
+      "kind": "mp4",
+      "at": 6519
+    },
+    {
+      "ms": 20,
+      "client": 7,
+      "kind": "youtube",
+      "at": 6519
+    },
+    {
+      "ms": 21,
+      "client": 8,
+      "kind": "mp4",
+      "at": 6519
+    },
+    {
+      "ms": 20,
+      "client": 0,
+      "kind": "mp4",
+      "at": 6919
+    },
+    {
+      "ms": 25,
+      "client": 1,
+      "kind": "youtube",
+      "at": 6919
+    },
+    {
+      "ms": 18,
+      "client": 2,
+      "kind": "mp4",
+      "at": 6919
+    },
+    {
+      "ms": 21,
+      "client": 3,
+      "kind": "youtube",
+      "at": 6919
+    },
+    {
+      "ms": 20,
+      "client": 4,
+      "kind": "mp4",
+      "at": 6919
+    },
+    {
+      "ms": 20,
+      "client": 5,
+      "kind": "youtube",
+      "at": 6919
+    },
+    {
+      "ms": 18,
+      "client": 6,
+      "kind": "mp4",
+      "at": 6919
+    },
+    {
+      "ms": 18,
+      "client": 7,
+      "kind": "youtube",
+      "at": 6919
+    },
+    {
+      "ms": 22,
+      "client": 8,
+      "kind": "mp4",
+      "at": 6919
+    },
+    {
+      "ms": 20,
+      "client": 0,
+      "kind": "mp4",
+      "at": 7319
+    },
+    {
+      "ms": 27,
+      "client": 1,
+      "kind": "youtube",
+      "at": 7319
+    },
+    {
+      "ms": 16,
+      "client": 2,
+      "kind": "mp4",
+      "at": 7319
+    },
+    {
+      "ms": 20,
+      "client": 3,
+      "kind": "youtube",
+      "at": 7319
+    },
+    {
+      "ms": 20,
+      "client": 4,
+      "kind": "mp4",
+      "at": 7319
+    },
+    {
+      "ms": 19,
+      "client": 5,
+      "kind": "youtube",
+      "at": 7319
+    },
+    {
+      "ms": 16,
+      "client": 6,
+      "kind": "mp4",
+      "at": 7319
+    },
+    {
+      "ms": 17,
+      "client": 7,
+      "kind": "youtube",
+      "at": 7319
+    },
+    {
+      "ms": 22,
+      "client": 8,
+      "kind": "mp4",
+      "at": 7319
+    },
+    {
+      "ms": 19,
+      "client": 0,
+      "kind": "mp4",
+      "at": 7719
+    },
+    {
+      "ms": 28,
+      "client": 1,
+      "kind": "youtube",
+      "at": 7719
+    },
+    {
+      "ms": 15,
+      "client": 2,
+      "kind": "mp4",
+      "at": 7719
+    },
+    {
+      "ms": 20,
+      "client": 3,
+      "kind": "youtube",
+      "at": 7719
+    },
+    {
+      "ms": 20,
+      "client": 4,
+      "kind": "mp4",
+      "at": 7719
+    },
+    {
+      "ms": 18,
+      "client": 5,
+      "kind": "youtube",
+      "at": 7719
+    },
+    {
+      "ms": 14,
+      "client": 6,
+      "kind": "mp4",
+      "at": 7719
+    },
+    {
+      "ms": 15,
+      "client": 7,
+      "kind": "youtube",
+      "at": 7719
+    },
+    {
+      "ms": 23,
+      "client": 8,
+      "kind": "mp4",
+      "at": 7719
+    },
+    {
+      "ms": 19,
+      "client": 0,
+      "kind": "mp4",
+      "at": 8119
+    },
+    {
+      "ms": 30,
+      "client": 1,
+      "kind": "youtube",
+      "at": 8119
+    },
+    {
+      "ms": 13,
+      "client": 2,
+      "kind": "mp4",
+      "at": 8119
+    },
+    {
+      "ms": 20,
+      "client": 3,
+      "kind": "youtube",
+      "at": 8119
+    },
+    {
+      "ms": 20,
+      "client": 4,
+      "kind": "mp4",
+      "at": 8119
+    },
+    {
+      "ms": 17,
+      "client": 5,
+      "kind": "youtube",
+      "at": 8119
+    },
+    {
+      "ms": 12,
+      "client": 6,
+      "kind": "mp4",
+      "at": 8119
+    },
+    {
+      "ms": 13,
+      "client": 7,
+      "kind": "youtube",
+      "at": 8119
+    },
+    {
+      "ms": 23,
+      "client": 8,
+      "kind": "mp4",
+      "at": 8119
+    },
+    {
+      "ms": 19,
+      "client": 0,
+      "kind": "mp4",
+      "at": 8519
+    },
+    {
+      "ms": 32,
+      "client": 1,
+      "kind": "youtube",
+      "at": 8519
+    },
+    {
+      "ms": 12,
+      "client": 2,
+      "kind": "mp4",
+      "at": 8519
+    },
+    {
+      "ms": 20,
+      "client": 3,
+      "kind": "youtube",
+      "at": 8519
+    },
+    {
+      "ms": 20,
+      "client": 4,
+      "kind": "mp4",
+      "at": 8519
+    },
+    {
+      "ms": 16,
+      "client": 5,
+      "kind": "youtube",
+      "at": 8519
+    },
+    {
+      "ms": 10,
+      "client": 6,
+      "kind": "mp4",
+      "at": 8519
+    },
+    {
+      "ms": 12,
+      "client": 7,
+      "kind": "youtube",
+      "at": 8519
+    },
+    {
+      "ms": 23,
+      "client": 8,
+      "kind": "mp4",
+      "at": 8519
+    },
+    {
+      "ms": -33,
+      "client": 0,
+      "kind": "mp4",
+      "at": 8920
+    },
+    {
+      "ms": -17,
+      "client": 1,
+      "kind": "youtube",
+      "at": 8920
+    },
+    {
+      "ms": -41,
+      "client": 2,
+      "kind": "mp4",
+      "at": 8920
+    },
+    {
+      "ms": -32,
+      "client": 3,
+      "kind": "youtube",
+      "at": 8920
+    },
+    {
+      "ms": -31,
+      "client": 4,
+      "kind": "mp4",
+      "at": 8920
+    },
+    {
+      "ms": -35,
+      "client": 5,
+      "kind": "youtube",
+      "at": 8920
+    },
+    {
+      "ms": -42,
+      "client": 6,
+      "kind": "mp4",
+      "at": 8920
+    },
+    {
+      "ms": -41,
+      "client": 7,
+      "kind": "youtube",
+      "at": 8920
+    },
+    {
+      "ms": -27,
+      "client": 8,
+      "kind": "mp4",
+      "at": 8920
+    },
+    {
+      "ms": -134,
+      "client": 0,
+      "kind": "mp4",
+      "at": 10522
+    },
+    {
+      "ms": -91,
+      "client": 1,
+      "kind": "youtube",
+      "at": 10522
+    },
+    {
+      "ms": -143,
+      "client": 2,
+      "kind": "mp4",
+      "at": 10522
+    },
+    {
+      "ms": -118,
+      "client": 3,
+      "kind": "youtube",
+      "at": 10522
+    },
+    {
+      "ms": -119,
+      "client": 4,
+      "kind": "mp4",
+      "at": 10522
+    },
+    {
+      "ms": -69,
+      "client": 5,
+      "kind": "youtube",
+      "at": 10522
+    },
+    {
+      "ms": -120,
+      "client": 6,
+      "kind": "mp4",
+      "at": 10522
+    },
+    {
+      "ms": -93,
+      "client": 7,
+      "kind": "youtube",
+      "at": 10522
+    },
+    {
+      "ms": -87,
+      "client": 8,
+      "kind": "mp4",
+      "at": 10522
+    },
+    {
+      "ms": -103,
+      "client": 0,
+      "kind": "mp4",
+      "at": 10922
+    },
+    {
+      "ms": -89,
+      "client": 1,
+      "kind": "youtube",
+      "at": 10922
+    },
+    {
+      "ms": -109,
+      "client": 2,
+      "kind": "mp4",
+      "at": 10922
+    },
+    {
+      "ms": -119,
+      "client": 3,
+      "kind": "youtube",
+      "at": 10922
+    },
+    {
+      "ms": -91,
+      "client": 4,
+      "kind": "mp4",
+      "at": 10922
+    },
+    {
+      "ms": -70,
+      "client": 5,
+      "kind": "youtube",
+      "at": 10922
+    },
+    {
+      "ms": -94,
+      "client": 6,
+      "kind": "mp4",
+      "at": 10922
+    },
+    {
+      "ms": -95,
+      "client": 7,
+      "kind": "youtube",
+      "at": 10922
+    },
+    {
+      "ms": -67,
+      "client": 8,
+      "kind": "mp4",
+      "at": 10922
+    },
+    {
+      "ms": -79,
+      "client": 0,
+      "kind": "mp4",
+      "at": 11322
+    },
+    {
+      "ms": -87,
+      "client": 1,
+      "kind": "youtube",
+      "at": 11322
+    },
+    {
+      "ms": -82,
+      "client": 2,
+      "kind": "mp4",
+      "at": 11322
+    },
+    {
+      "ms": -119,
+      "client": 3,
+      "kind": "youtube",
+      "at": 11322
+    },
+    {
+      "ms": -71,
+      "client": 4,
+      "kind": "mp4",
+      "at": 11322
+    },
+    {
+      "ms": -71,
+      "client": 5,
+      "kind": "youtube",
+      "at": 11322
+    },
+    {
+      "ms": -72,
+      "client": 6,
+      "kind": "mp4",
+      "at": 11322
+    },
+    {
+      "ms": -96,
+      "client": 7,
+      "kind": "youtube",
+      "at": 11322
+    },
+    {
+      "ms": -66,
+      "client": 8,
+      "kind": "mp4",
+      "at": 11322
+    },
+    {
+      "ms": -81,
+      "client": 0,
+      "kind": "mp4",
+      "at": 11723
+    },
+    {
+      "ms": -86,
+      "client": 1,
+      "kind": "youtube",
+      "at": 11723
+    },
+    {
+      "ms": -65,
+      "client": 2,
+      "kind": "mp4",
+      "at": 11723
+    },
+    {
+      "ms": -120,
+      "client": 3,
+      "kind": "youtube",
+      "at": 11723
+    },
+    {
+      "ms": -72,
+      "client": 4,
+      "kind": "mp4",
+      "at": 11723
+    },
+    {
+      "ms": -73,
+      "client": 5,
+      "kind": "youtube",
+      "at": 11723
+    },
+    {
+      "ms": -75,
+      "client": 6,
+      "kind": "mp4",
+      "at": 11723
+    },
+    {
+      "ms": -99,
+      "client": 7,
+      "kind": "youtube",
+      "at": 11723
+    },
+    {
+      "ms": -67,
+      "client": 8,
+      "kind": "mp4",
+      "at": 11723
+    },
+    {
+      "ms": -61,
+      "client": 0,
+      "kind": "mp4",
+      "at": 12123
+    },
+    {
+      "ms": -84,
+      "client": 1,
+      "kind": "youtube",
+      "at": 12123
+    },
+    {
+      "ms": -67,
+      "client": 2,
+      "kind": "mp4",
+      "at": 12123
+    },
+    {
+      "ms": -120,
+      "client": 3,
+      "kind": "youtube",
+      "at": 12123
+    },
+    {
+      "ms": -72,
+      "client": 4,
+      "kind": "mp4",
+      "at": 12123
+    },
+    {
+      "ms": -73,
+      "client": 5,
+      "kind": "youtube",
+      "at": 12123
+    },
+    {
+      "ms": -77,
+      "client": 6,
+      "kind": "mp4",
+      "at": 12123
+    },
+    {
+      "ms": -101,
+      "client": 7,
+      "kind": "youtube",
+      "at": 12123
+    },
+    {
+      "ms": -67,
+      "client": 8,
+      "kind": "mp4",
+      "at": 12123
+    },
+    {
+      "ms": -62,
+      "client": 0,
+      "kind": "mp4",
+      "at": 12523
+    },
+    {
+      "ms": -82,
+      "client": 1,
+      "kind": "youtube",
+      "at": 12523
+    },
+    {
+      "ms": -68,
+      "client": 2,
+      "kind": "mp4",
+      "at": 12523
+    },
+    {
+      "ms": -121,
+      "client": 3,
+      "kind": "youtube",
+      "at": 12523
+    },
+    {
+      "ms": -72,
+      "client": 4,
+      "kind": "mp4",
+      "at": 12523
+    },
+    {
+      "ms": -74,
+      "client": 5,
+      "kind": "youtube",
+      "at": 12523
+    },
+    {
+      "ms": -78,
+      "client": 6,
+      "kind": "mp4",
+      "at": 12523
+    },
+    {
+      "ms": -102,
+      "client": 7,
+      "kind": "youtube",
+      "at": 12523
+    },
+    {
+      "ms": -66,
+      "client": 8,
+      "kind": "mp4",
+      "at": 12523
+    },
+    {
+      "ms": -62,
+      "client": 0,
+      "kind": "mp4",
+      "at": 12923
+    },
+    {
+      "ms": -80,
+      "client": 1,
+      "kind": "youtube",
+      "at": 12923
+    },
+    {
+      "ms": -70,
+      "client": 2,
+      "kind": "mp4",
+      "at": 12923
+    },
+    {
+      "ms": -121,
+      "client": 3,
+      "kind": "youtube",
+      "at": 12923
+    },
+    {
+      "ms": -72,
+      "client": 4,
+      "kind": "mp4",
+      "at": 12923
+    },
+    {
+      "ms": -75,
+      "client": 5,
+      "kind": "youtube",
+      "at": 12923
+    },
+    {
+      "ms": -80,
+      "client": 6,
+      "kind": "mp4",
+      "at": 12923
+    },
+    {
+      "ms": -104,
+      "client": 7,
+      "kind": "youtube",
+      "at": 12923
+    },
+    {
+      "ms": -66,
+      "client": 8,
+      "kind": "mp4",
+      "at": 12923
+    },
+    {
+      "ms": -80,
+      "client": 0,
+      "kind": "mp4",
+      "at": 14525
+    },
+    {
+      "ms": -110,
+      "client": 1,
+      "kind": "youtube",
+      "at": 14525
+    },
+    {
+      "ms": -124,
+      "client": 2,
+      "kind": "mp4",
+      "at": 14525
+    },
+    {
+      "ms": -83,
+      "client": 3,
+      "kind": "youtube",
+      "at": 14525
+    },
+    {
+      "ms": -99,
+      "client": 4,
+      "kind": "mp4",
+      "at": 14525
+    },
+    {
+      "ms": -239,
+      "client": 5,
+      "kind": "youtube",
+      "at": 14525
+    },
+    {
+      "ms": -34,
+      "client": 6,
+      "kind": "mp4",
+      "at": 14525
+    },
+    {
+      "ms": -118,
+      "client": 7,
+      "kind": "youtube",
+      "at": 14525
+    },
+    {
+      "ms": -74,
+      "client": 8,
+      "kind": "mp4",
+      "at": 14525
+    },
+    {
+      "ms": -80,
+      "client": 0,
+      "kind": "mp4",
+      "at": 14925
+    },
+    {
+      "ms": -108,
+      "client": 1,
+      "kind": "youtube",
+      "at": 14925
+    },
+    {
+      "ms": -97,
+      "client": 2,
+      "kind": "mp4",
+      "at": 14925
+    },
+    {
+      "ms": -84,
+      "client": 3,
+      "kind": "youtube",
+      "at": 14926
+    },
+    {
+      "ms": -76,
+      "client": 4,
+      "kind": "mp4",
+      "at": 14926
+    },
+    {
+      "ms": -240,
+      "client": 5,
+      "kind": "youtube",
+      "at": 14926
+    },
+    {
+      "ms": -37,
+      "client": 6,
+      "kind": "mp4",
+      "at": 14926
+    },
+    {
+      "ms": -121,
+      "client": 7,
+      "kind": "youtube",
+      "at": 14926
+    },
+    {
+      "ms": -74,
+      "client": 8,
+      "kind": "mp4",
+      "at": 14926
+    },
+    {
+      "ms": -81,
+      "client": 0,
+      "kind": "mp4",
+      "at": 15326
+    },
+    {
+      "ms": -107,
+      "client": 1,
+      "kind": "youtube",
+      "at": 15326
+    },
+    {
+      "ms": -76,
+      "client": 2,
+      "kind": "mp4",
+      "at": 15326
+    },
+    {
+      "ms": -84,
+      "client": 3,
+      "kind": "youtube",
+      "at": 15326
+    },
+    {
+      "ms": -76,
+      "client": 4,
+      "kind": "mp4",
+      "at": 15326
+    },
+    {
+      "ms": -241,
+      "client": 5,
+      "kind": "youtube",
+      "at": 15326
+    },
+    {
+      "ms": -39,
+      "client": 6,
+      "kind": "mp4",
+      "at": 15326
+    },
+    {
+      "ms": -122,
+      "client": 7,
+      "kind": "youtube",
+      "at": 15326
+    },
+    {
+      "ms": -74,
+      "client": 8,
+      "kind": "mp4",
+      "at": 15326
+    },
+    {
+      "ms": -62,
+      "client": 0,
+      "kind": "mp4",
+      "at": 15726
+    },
+    {
+      "ms": -105,
+      "client": 1,
+      "kind": "youtube",
+      "at": 15726
+    },
+    {
+      "ms": -78,
+      "client": 2,
+      "kind": "mp4",
+      "at": 15726
+    },
+    {
+      "ms": -84,
+      "client": 3,
+      "kind": "youtube",
+      "at": 15726
+    },
+    {
+      "ms": -76,
+      "client": 4,
+      "kind": "mp4",
+      "at": 15726
+    },
+    {
+      "ms": -242,
+      "client": 5,
+      "kind": "youtube",
+      "at": 15726
+    },
+    {
+      "ms": -41,
+      "client": 6,
+      "kind": "mp4",
+      "at": 15726
+    },
+    {
+      "ms": -124,
+      "client": 7,
+      "kind": "youtube",
+      "at": 15726
+    },
+    {
+      "ms": -73,
+      "client": 8,
+      "kind": "mp4",
+      "at": 15726
+    },
+    {
+      "ms": -415,
+      "client": 0,
+      "kind": "mp4",
+      "at": 17327
+    },
+    {
+      "ms": -78,
+      "client": 1,
+      "kind": "youtube",
+      "at": 17327
+    },
+    {
+      "ms": -132,
+      "client": 2,
+      "kind": "mp4",
+      "at": 17327
+    },
+    {
+      "ms": -82,
+      "client": 3,
+      "kind": "youtube",
+      "at": 17327
+    },
+    {
+      "ms": -101,
+      "client": 4,
+      "kind": "mp4",
+      "at": 17327
+    },
+    {
+      "ms": -87,
+      "client": 5,
+      "kind": "youtube",
+      "at": 17327
+    },
+    {
+      "ms": -79,
+      "client": 6,
+      "kind": "mp4",
+      "at": 17327
+    },
+    {
+      "ms": -120,
+      "client": 7,
+      "kind": "youtube",
+      "at": 17327
+    },
+    {
+      "ms": -140,
+      "client": 8,
+      "kind": "mp4",
+      "at": 17327
+    },
+    {
+      "ms": -375,
+      "client": 0,
+      "kind": "mp4",
+      "at": 17727
+    },
+    {
+      "ms": -76,
+      "client": 1,
+      "kind": "youtube",
+      "at": 17727
+    },
+    {
+      "ms": -102,
+      "client": 2,
+      "kind": "mp4",
+      "at": 17727
+    },
+    {
+      "ms": -83,
+      "client": 3,
+      "kind": "youtube",
+      "at": 17727
+    },
+    {
+      "ms": -77,
+      "client": 4,
+      "kind": "mp4",
+      "at": 17727
+    },
+    {
+      "ms": -87,
+      "client": 5,
+      "kind": "youtube",
+      "at": 17727
+    },
+    {
+      "ms": -81,
+      "client": 6,
+      "kind": "mp4",
+      "at": 17727
+    },
+    {
+      "ms": -121,
+      "client": 7,
+      "kind": "youtube",
+      "at": 17727
+    },
+    {
+      "ms": -108,
+      "client": 8,
+      "kind": "mp4",
+      "at": 17727
+    },
+    {
+      "ms": -336,
+      "client": 0,
+      "kind": "mp4",
+      "at": 18127
+    },
+    {
+      "ms": -74,
+      "client": 1,
+      "kind": "youtube",
+      "at": 18127
+    },
+    {
+      "ms": -79,
+      "client": 2,
+      "kind": "mp4",
+      "at": 18127
+    },
+    {
+      "ms": -83,
+      "client": 3,
+      "kind": "youtube",
+      "at": 18127
+    },
+    {
+      "ms": -77,
+      "client": 4,
+      "kind": "mp4",
+      "at": 18127
+    },
+    {
+      "ms": -88,
+      "client": 5,
+      "kind": "youtube",
+      "at": 18127
+    },
+    {
+      "ms": -63,
+      "client": 6,
+      "kind": "mp4",
+      "at": 18127
+    },
+    {
+      "ms": -123,
+      "client": 7,
+      "kind": "youtube",
+      "at": 18127
+    },
+    {
+      "ms": -83,
+      "client": 8,
+      "kind": "mp4",
+      "at": 18127
+    },
+    {
+      "ms": -297,
+      "client": 0,
+      "kind": "mp4",
+      "at": 18528
+    },
+    {
+      "ms": -73,
+      "client": 1,
+      "kind": "youtube",
+      "at": 18528
+    },
+    {
+      "ms": -82,
+      "client": 2,
+      "kind": "mp4",
+      "at": 18528
+    },
+    {
+      "ms": -84,
+      "client": 3,
+      "kind": "youtube",
+      "at": 18528
+    },
+    {
+      "ms": -78,
+      "client": 4,
+      "kind": "mp4",
+      "at": 18528
+    },
+    {
+      "ms": -90,
+      "client": 5,
+      "kind": "youtube",
+      "at": 18528
+    },
+    {
+      "ms": -66,
+      "client": 6,
+      "kind": "mp4",
+      "at": 18528
+    },
+    {
+      "ms": -125,
+      "client": 7,
+      "kind": "youtube",
+      "at": 18528
+    },
+    {
+      "ms": -64,
+      "client": 8,
+      "kind": "mp4",
+      "at": 18528
+    },
+    {
+      "ms": -258,
+      "client": 0,
+      "kind": "mp4",
+      "at": 18928
+    },
+    {
+      "ms": -71,
+      "client": 1,
+      "kind": "youtube",
+      "at": 18928
+    },
+    {
+      "ms": -64,
+      "client": 2,
+      "kind": "mp4",
+      "at": 18928
+    },
+    {
+      "ms": -84,
+      "client": 3,
+      "kind": "youtube",
+      "at": 18928
+    },
+    {
+      "ms": -78,
+      "client": 4,
+      "kind": "mp4",
+      "at": 18928
+    },
+    {
+      "ms": -91,
+      "client": 5,
+      "kind": "youtube",
+      "at": 18928
+    },
+    {
+      "ms": -67,
+      "client": 6,
+      "kind": "mp4",
+      "at": 18928
+    },
+    {
+      "ms": -127,
+      "client": 7,
+      "kind": "youtube",
+      "at": 18928
+    },
+    {
+      "ms": -63,
+      "client": 8,
+      "kind": "mp4",
+      "at": 18928
+    },
+    {
+      "ms": -218,
+      "client": 0,
+      "kind": "mp4",
+      "at": 19328
+    },
+    {
+      "ms": -69,
+      "client": 1,
+      "kind": "youtube",
+      "at": 19328
+    },
+    {
+      "ms": -65,
+      "client": 2,
+      "kind": "mp4",
+      "at": 19328
+    },
+    {
+      "ms": -85,
+      "client": 3,
+      "kind": "youtube",
+      "at": 19328
+    },
+    {
+      "ms": -78,
+      "client": 4,
+      "kind": "mp4",
+      "at": 19328
+    },
+    {
+      "ms": -92,
+      "client": 5,
+      "kind": "youtube",
+      "at": 19328
+    },
+    {
+      "ms": -69,
+      "client": 6,
+      "kind": "mp4",
+      "at": 19328
+    },
+    {
+      "ms": -128,
+      "client": 7,
+      "kind": "youtube",
+      "at": 19328
+    },
+    {
+      "ms": -63,
+      "client": 8,
+      "kind": "mp4",
+      "at": 19328
+    },
+    {
+      "ms": 21,
+      "client": 0,
+      "kind": "mp4",
+      "at": 20929
+    },
+    {
+      "ms": -103,
+      "client": 1,
+      "kind": "youtube",
+      "at": 20929
+    },
+    {
+      "ms": -37,
+      "client": 2,
+      "kind": "mp4",
+      "at": 20929
+    },
+    {
+      "ms": -100,
+      "client": 3,
+      "kind": "youtube",
+      "at": 20929
+    },
+    {
+      "ms": -99,
+      "client": 4,
+      "kind": "mp4",
+      "at": 20929
+    },
+    {
+      "ms": -66,
+      "client": 5,
+      "kind": "youtube",
+      "at": 20929
+    },
+    {
+      "ms": -89,
+      "client": 6,
+      "kind": "mp4",
+      "at": 20929
+    },
+    {
+      "ms": -54,
+      "client": 7,
+      "kind": "youtube",
+      "at": 20929
+    },
+    {
+      "ms": -91,
+      "client": 8,
+      "kind": "mp4",
+      "at": 20929
+    },
+    {
+      "ms": 21,
+      "client": 0,
+      "kind": "mp4",
+      "at": 21329
+    },
+    {
+      "ms": -101,
+      "client": 1,
+      "kind": "youtube",
+      "at": 21329
+    },
+    {
+      "ms": -39,
+      "client": 2,
+      "kind": "mp4",
+      "at": 21329
+    },
+    {
+      "ms": -100,
+      "client": 3,
+      "kind": "youtube",
+      "at": 21329
+    },
+    {
+      "ms": -75,
+      "client": 4,
+      "kind": "mp4",
+      "at": 21329
+    },
+    {
+      "ms": -67,
+      "client": 5,
+      "kind": "youtube",
+      "at": 21329
+    },
+    {
+      "ms": -71,
+      "client": 6,
+      "kind": "mp4",
+      "at": 21329
+    },
+    {
+      "ms": -55,
+      "client": 7,
+      "kind": "youtube",
+      "at": 21329
+    },
+    {
+      "ms": -71,
+      "client": 8,
+      "kind": "mp4",
+      "at": 21329
+    },
+    {
+      "ms": 20,
+      "client": 0,
+      "kind": "mp4",
+      "at": 21729
+    },
+    {
+      "ms": -99,
+      "client": 1,
+      "kind": "youtube",
+      "at": 21729
+    },
+    {
+      "ms": -40,
+      "client": 2,
+      "kind": "mp4",
+      "at": 21729
+    },
+    {
+      "ms": -101,
+      "client": 3,
+      "kind": "youtube",
+      "at": 21729
+    },
+    {
+      "ms": -75,
+      "client": 4,
+      "kind": "mp4",
+      "at": 21729
+    },
+    {
+      "ms": -68,
+      "client": 5,
+      "kind": "youtube",
+      "at": 21729
+    },
+    {
+      "ms": -72,
+      "client": 6,
+      "kind": "mp4",
+      "at": 21729
+    },
+    {
+      "ms": -57,
+      "client": 7,
+      "kind": "youtube",
+      "at": 21729
+    },
+    {
+      "ms": -71,
+      "client": 8,
+      "kind": "mp4",
+      "at": 21729
+    },
+    {
+      "ms": 19,
+      "client": 0,
+      "kind": "mp4",
+      "at": 22130
+    },
+    {
+      "ms": -98,
+      "client": 1,
+      "kind": "youtube",
+      "at": 22130
+    },
+    {
+      "ms": -43,
+      "client": 2,
+      "kind": "mp4",
+      "at": 22130
+    },
+    {
+      "ms": -102,
+      "client": 3,
+      "kind": "youtube",
+      "at": 22130
+    },
+    {
+      "ms": -76,
+      "client": 4,
+      "kind": "mp4",
+      "at": 22130
+    },
+    {
+      "ms": -70,
+      "client": 5,
+      "kind": "youtube",
+      "at": 22130
+    },
+    {
+      "ms": -75,
+      "client": 6,
+      "kind": "mp4",
+      "at": 22130
+    },
+    {
+      "ms": -59,
+      "client": 7,
+      "kind": "youtube",
+      "at": 22130
+    },
+    {
+      "ms": -71,
+      "client": 8,
+      "kind": "mp4",
+      "at": 22130
+    },
+    {
+      "ms": 18,
+      "client": 0,
+      "kind": "mp4",
+      "at": 22531
+    },
+    {
+      "ms": -97,
+      "client": 1,
+      "kind": "youtube",
+      "at": 22531
+    },
+    {
+      "ms": -45,
+      "client": 2,
+      "kind": "mp4",
+      "at": 22531
+    },
+    {
+      "ms": -103,
+      "client": 3,
+      "kind": "youtube",
+      "at": 22531
+    },
+    {
+      "ms": -77,
+      "client": 4,
+      "kind": "mp4",
+      "at": 22531
+    },
+    {
+      "ms": -71,
+      "client": 5,
+      "kind": "youtube",
+      "at": 22531
+    },
+    {
+      "ms": -78,
+      "client": 6,
+      "kind": "mp4",
+      "at": 22531
+    },
+    {
+      "ms": -62,
+      "client": 7,
+      "kind": "youtube",
+      "at": 22531
+    },
+    {
+      "ms": -72,
+      "client": 8,
+      "kind": "mp4",
+      "at": 22531
+    },
+    {
+      "ms": -139,
+      "client": 0,
+      "kind": "mp4",
+      "at": 22931
+    },
+    {
+      "ms": -251,
+      "client": 1,
+      "kind": "youtube",
+      "at": 22931
+    },
+    {
+      "ms": -203,
+      "client": 2,
+      "kind": "mp4",
+      "at": 22931
+    },
+    {
+      "ms": -259,
+      "client": 3,
+      "kind": "youtube",
+      "at": 22931
+    },
+    {
+      "ms": -233,
+      "client": 4,
+      "kind": "mp4",
+      "at": 22931
+    },
+    {
+      "ms": -228,
+      "client": 5,
+      "kind": "youtube",
+      "at": 22931
+    },
+    {
+      "ms": -235,
+      "client": 6,
+      "kind": "mp4",
+      "at": 22931
+    },
+    {
+      "ms": -219,
+      "client": 7,
+      "kind": "youtube",
+      "at": 22931
+    },
+    {
+      "ms": -227,
+      "client": 8,
+      "kind": "mp4",
+      "at": 22931
+    },
+    {
+      "ms": -189,
+      "client": 9,
+      "kind": "youtube",
+      "at": 22931
+    },
+    {
+      "ms": -107,
+      "client": 0,
+      "kind": "mp4",
+      "at": 23331
+    },
+    {
+      "ms": -249,
+      "client": 1,
+      "kind": "youtube",
+      "at": 23331
+    },
+    {
+      "ms": -165,
+      "client": 2,
+      "kind": "mp4",
+      "at": 23331
+    },
+    {
+      "ms": -259,
+      "client": 3,
+      "kind": "youtube",
+      "at": 23331
+    },
+    {
+      "ms": -193,
+      "client": 4,
+      "kind": "mp4",
+      "at": 23331
+    },
+    {
+      "ms": -229,
+      "client": 5,
+      "kind": "youtube",
+      "at": 23331
+    },
+    {
+      "ms": -197,
+      "client": 6,
+      "kind": "mp4",
+      "at": 23331
+    },
+    {
+      "ms": -221,
+      "client": 7,
+      "kind": "youtube",
+      "at": 23331
+    },
+    {
+      "ms": -187,
+      "client": 8,
+      "kind": "mp4",
+      "at": 23331
+    },
+    {
+      "ms": -190,
+      "client": 9,
+      "kind": "youtube",
+      "at": 23331
+    },
+    {
+      "ms": -83,
+      "client": 0,
+      "kind": "mp4",
+      "at": 23731
+    },
+    {
+      "ms": -247,
+      "client": 1,
+      "kind": "youtube",
+      "at": 23731
+    },
+    {
+      "ms": -126,
+      "client": 2,
+      "kind": "mp4",
+      "at": 23731
+    },
+    {
+      "ms": -260,
+      "client": 3,
+      "kind": "youtube",
+      "at": 23731
+    },
+    {
+      "ms": -153,
+      "client": 4,
+      "kind": "mp4",
+      "at": 23731
+    },
+    {
+      "ms": -229,
+      "client": 5,
+      "kind": "youtube",
+      "at": 23731
+    },
+    {
+      "ms": -159,
+      "client": 6,
+      "kind": "mp4",
+      "at": 23731
+    },
+    {
+      "ms": -222,
+      "client": 7,
+      "kind": "youtube",
+      "at": 23731
+    },
+    {
+      "ms": -146,
+      "client": 8,
+      "kind": "mp4",
+      "at": 23731
+    },
+    {
+      "ms": -190,
+      "client": 9,
+      "kind": "youtube",
+      "at": 23731
+    },
+    {
+      "ms": -116,
+      "client": 0,
+      "kind": "mp4",
+      "at": 24131
+    },
+    {
+      "ms": -296,
+      "client": 1,
+      "kind": "youtube",
+      "at": 24131
+    },
+    {
+      "ms": -150,
+      "client": 2,
+      "kind": "mp4",
+      "at": 24131
+    },
+    {
+      "ms": -310,
+      "client": 3,
+      "kind": "youtube",
+      "at": 24131
+    },
+    {
+      "ms": -171,
+      "client": 4,
+      "kind": "mp4",
+      "at": 24131
+    },
+    {
+      "ms": -280,
+      "client": 5,
+      "kind": "youtube",
+      "at": 24131
+    },
+    {
+      "ms": -176,
+      "client": 6,
+      "kind": "mp4",
+      "at": 24131
+    },
+    {
+      "ms": -274,
+      "client": 7,
+      "kind": "youtube",
+      "at": 24131
+    },
+    {
+      "ms": -164,
+      "client": 8,
+      "kind": "mp4",
+      "at": 24132
+    },
+    {
+      "ms": -241,
+      "client": 9,
+      "kind": "youtube",
+      "at": 24132
+    },
+    {
+      "ms": -90,
+      "client": 0,
+      "kind": "mp4",
+      "at": 24532
+    },
+    {
+      "ms": -296,
+      "client": 1,
+      "kind": "youtube",
+      "at": 24533
+    },
+    {
+      "ms": -118,
+      "client": 2,
+      "kind": "mp4",
+      "at": 24533
+    },
+    {
+      "ms": -312,
+      "client": 3,
+      "kind": "youtube",
+      "at": 24533
+    },
+    {
+      "ms": -133,
+      "client": 4,
+      "kind": "mp4",
+      "at": 24533
+    },
+    {
+      "ms": -283,
+      "client": 5,
+      "kind": "youtube",
+      "at": 24533
+    },
+    {
+      "ms": -140,
+      "client": 6,
+      "kind": "mp4",
+      "at": 24533
+    },
+    {
+      "ms": -277,
+      "client": 7,
+      "kind": "youtube",
+      "at": 24533
+    },
+    {
+      "ms": -126,
+      "client": 8,
+      "kind": "mp4",
+      "at": 24533
+    },
+    {
+      "ms": -243,
+      "client": 9,
+      "kind": "youtube",
+      "at": 24533
+    },
+    {
+      "ms": -71,
+      "client": 0,
+      "kind": "mp4",
+      "at": 24933
+    },
+    {
+      "ms": -294,
+      "client": 1,
+      "kind": "youtube",
+      "at": 24933
+    },
+    {
+      "ms": -91,
+      "client": 2,
+      "kind": "mp4",
+      "at": 24933
+    },
+    {
+      "ms": -312,
+      "client": 3,
+      "kind": "youtube",
+      "at": 24933
+    },
+    {
+      "ms": -101,
+      "client": 4,
+      "kind": "mp4",
+      "at": 24933
+    },
+    {
+      "ms": -284,
+      "client": 5,
+      "kind": "youtube",
+      "at": 24933
+    },
+    {
+      "ms": -110,
+      "client": 6,
+      "kind": "mp4",
+      "at": 24933
+    },
+    {
+      "ms": -279,
+      "client": 7,
+      "kind": "youtube",
+      "at": 24933
+    },
+    {
+      "ms": -94,
+      "client": 8,
+      "kind": "mp4",
+      "at": 24933
+    },
+    {
+      "ms": -243,
+      "client": 9,
+      "kind": "youtube",
+      "at": 24933
+    },
+    {
+      "ms": -72,
+      "client": 0,
+      "kind": "mp4",
+      "at": 25333
+    },
+    {
+      "ms": -292,
+      "client": 1,
+      "kind": "youtube",
+      "at": 25333
+    },
+    {
+      "ms": -73,
+      "client": 2,
+      "kind": "mp4",
+      "at": 25333
+    },
+    {
+      "ms": -313,
+      "client": 3,
+      "kind": "youtube",
+      "at": 25333
+    },
+    {
+      "ms": -77,
+      "client": 4,
+      "kind": "mp4",
+      "at": 25333
+    },
+    {
+      "ms": -284,
+      "client": 5,
+      "kind": "youtube",
+      "at": 25333
+    },
+    {
+      "ms": -84,
+      "client": 6,
+      "kind": "mp4",
+      "at": 25333
+    },
+    {
+      "ms": -280,
+      "client": 7,
+      "kind": "youtube",
+      "at": 25333
+    },
+    {
+      "ms": -69,
+      "client": 8,
+      "kind": "mp4",
+      "at": 25333
+    },
+    {
+      "ms": -244,
+      "client": 9,
+      "kind": "youtube",
+      "at": 25333
+    },
+    {
+      "ms": -72,
+      "client": 0,
+      "kind": "mp4",
+      "at": 25733
+    },
+    {
+      "ms": -290,
+      "client": 1,
+      "kind": "youtube",
+      "at": 25733
+    },
+    {
+      "ms": -75,
+      "client": 2,
+      "kind": "mp4",
+      "at": 25733
+    },
+    {
+      "ms": -313,
+      "client": 3,
+      "kind": "youtube",
+      "at": 25733
+    },
+    {
+      "ms": -77,
+      "client": 4,
+      "kind": "mp4",
+      "at": 25733
+    },
+    {
+      "ms": -285,
+      "client": 5,
+      "kind": "youtube",
+      "at": 25733
+    },
+    {
+      "ms": -66,
+      "client": 6,
+      "kind": "mp4",
+      "at": 25733
+    },
+    {
+      "ms": -282,
+      "client": 7,
+      "kind": "youtube",
+      "at": 25733
+    },
+    {
+      "ms": -69,
+      "client": 8,
+      "kind": "mp4",
+      "at": 25733
+    },
+    {
+      "ms": -244,
+      "client": 9,
+      "kind": "youtube",
+      "at": 25733
+    },
+    {
+      "ms": -14,
+      "client": 0,
+      "kind": "mp4",
+      "at": 27736
+    },
+    {
+      "ms": -13,
+      "client": 1,
+      "kind": "youtube",
+      "at": 27736
+    },
+    {
+      "ms": -15,
+      "client": 2,
+      "kind": "mp4",
+      "at": 27736
+    },
+    {
+      "ms": -15,
+      "client": 4,
+      "kind": "mp4",
+      "at": 27736
+    },
+    {
+      "ms": -15,
+      "client": 5,
+      "kind": "youtube",
+      "at": 27736
+    },
+    {
+      "ms": -15,
+      "client": 6,
+      "kind": "mp4",
+      "at": 27736
+    },
+    {
+      "ms": -15,
+      "client": 7,
+      "kind": "youtube",
+      "at": 27736
+    },
+    {
+      "ms": -14,
+      "client": 8,
+      "kind": "mp4",
+      "at": 27736
+    },
+    {
+      "ms": -14,
+      "client": 9,
+      "kind": "youtube",
+      "at": 27736
+    },
+    {
+      "ms": -15,
+      "client": 0,
+      "kind": "mp4",
+      "at": 28136
+    },
+    {
+      "ms": -11,
+      "client": 1,
+      "kind": "youtube",
+      "at": 28136
+    },
+    {
+      "ms": -17,
+      "client": 2,
+      "kind": "mp4",
+      "at": 28136
+    },
+    {
+      "ms": -15,
+      "client": 4,
+      "kind": "mp4",
+      "at": 28136
+    },
+    {
+      "ms": -15,
+      "client": 5,
+      "kind": "youtube",
+      "at": 28136
+    },
+    {
+      "ms": -17,
+      "client": 6,
+      "kind": "mp4",
+      "at": 28136
+    },
+    {
+      "ms": -17,
+      "client": 7,
+      "kind": "youtube",
+      "at": 28136
+    },
+    {
+      "ms": -13,
+      "client": 8,
+      "kind": "mp4",
+      "at": 28136
+    },
+    {
+      "ms": -14,
+      "client": 9,
+      "kind": "youtube",
+      "at": 28136
+    },
+    {
+      "ms": -15,
+      "client": 0,
+      "kind": "mp4",
+      "at": 28536
+    },
+    {
+      "ms": -9,
+      "client": 1,
+      "kind": "youtube",
+      "at": 28536
+    },
+    {
+      "ms": -18,
+      "client": 2,
+      "kind": "mp4",
+      "at": 28536
+    },
+    {
+      "ms": -764,
+      "client": 3,
+      "kind": "youtube",
+      "at": 28536
+    },
+    {
+      "ms": -15,
+      "client": 4,
+      "kind": "mp4",
+      "at": 28536
+    },
+    {
+      "ms": -16,
+      "client": 5,
+      "kind": "youtube",
+      "at": 28536
+    },
+    {
+      "ms": -19,
+      "client": 6,
+      "kind": "mp4",
+      "at": 28536
+    },
+    {
+      "ms": -18,
+      "client": 7,
+      "kind": "youtube",
+      "at": 28536
+    },
+    {
+      "ms": -13,
+      "client": 8,
+      "kind": "mp4",
+      "at": 28536
+    },
+    {
+      "ms": -15,
+      "client": 9,
+      "kind": "youtube",
+      "at": 28536
+    },
+    {
+      "ms": -16,
+      "client": 0,
+      "kind": "mp4",
+      "at": 28936
+    },
+    {
+      "ms": -7,
+      "client": 1,
+      "kind": "youtube",
+      "at": 28936
+    },
+    {
+      "ms": -20,
+      "client": 2,
+      "kind": "mp4",
+      "at": 28936
+    },
+    {
+      "ms": -15,
+      "client": 4,
+      "kind": "mp4",
+      "at": 28936
+    },
+    {
+      "ms": -17,
+      "client": 5,
+      "kind": "youtube",
+      "at": 28936
+    },
+    {
+      "ms": -21,
+      "client": 6,
+      "kind": "mp4",
+      "at": 28936
+    },
+    {
+      "ms": -20,
+      "client": 7,
+      "kind": "youtube",
+      "at": 28936
+    },
+    {
+      "ms": -13,
+      "client": 8,
+      "kind": "mp4",
+      "at": 28936
+    },
+    {
+      "ms": -15,
+      "client": 9,
+      "kind": "youtube",
+      "at": 28936
+    },
+    {
+      "ms": -16,
+      "client": 0,
+      "kind": "mp4",
+      "at": 29336
+    },
+    {
+      "ms": -5,
+      "client": 1,
+      "kind": "youtube",
+      "at": 29336
+    },
+    {
+      "ms": -22,
+      "client": 2,
+      "kind": "mp4",
+      "at": 29336
+    },
+    {
+      "ms": -15,
+      "client": 4,
+      "kind": "mp4",
+      "at": 29336
+    },
+    {
+      "ms": -18,
+      "client": 5,
+      "kind": "youtube",
+      "at": 29336
+    },
+    {
+      "ms": -23,
+      "client": 6,
+      "kind": "mp4",
+      "at": 29336
+    },
+    {
+      "ms": -21,
+      "client": 7,
+      "kind": "youtube",
+      "at": 29336
+    },
+    {
+      "ms": -12,
+      "client": 8,
+      "kind": "mp4",
+      "at": 29336
+    },
+    {
+      "ms": -15,
+      "client": 9,
+      "kind": "youtube",
+      "at": 29336
+    },
+    {
+      "ms": -17,
+      "client": 0,
+      "kind": "mp4",
+      "at": 29737
+    },
+    {
+      "ms": -4,
+      "client": 1,
+      "kind": "youtube",
+      "at": 29737
+    },
+    {
+      "ms": -24,
+      "client": 2,
+      "kind": "mp4",
+      "at": 29737
+    },
+    {
+      "ms": 49,
+      "client": 3,
+      "kind": "youtube",
+      "at": 29737
+    },
+    {
+      "ms": -16,
+      "client": 4,
+      "kind": "mp4",
+      "at": 29737
+    },
+    {
+      "ms": -20,
+      "client": 5,
+      "kind": "youtube",
+      "at": 29737
+    },
+    {
+      "ms": -25,
+      "client": 6,
+      "kind": "mp4",
+      "at": 29737
+    },
+    {
+      "ms": -24,
+      "client": 7,
+      "kind": "youtube",
+      "at": 29737
+    },
+    {
+      "ms": -13,
+      "client": 8,
+      "kind": "mp4",
+      "at": 29737
+    },
+    {
+      "ms": -17,
+      "client": 9,
+      "kind": "youtube",
+      "at": 29737
+    },
+    {
+      "ms": -19,
+      "client": 0,
+      "kind": "mp4",
+      "at": 30138
+    },
+    {
+      "ms": -3,
+      "client": 1,
+      "kind": "youtube",
+      "at": 30138
+    },
+    {
+      "ms": -27,
+      "client": 2,
+      "kind": "mp4",
+      "at": 30138
+    },
+    {
+      "ms": 47,
+      "client": 3,
+      "kind": "youtube",
+      "at": 30138
+    },
+    {
+      "ms": -17,
+      "client": 4,
+      "kind": "mp4",
+      "at": 30138
+    },
+    {
+      "ms": -21,
+      "client": 5,
+      "kind": "youtube",
+      "at": 30138
+    },
+    {
+      "ms": -28,
+      "client": 6,
+      "kind": "mp4",
+      "at": 30138
+    },
+    {
+      "ms": -27,
+      "client": 7,
+      "kind": "youtube",
+      "at": 30138
+    },
+    {
+      "ms": -13,
+      "client": 8,
+      "kind": "mp4",
+      "at": 30138
+    },
+    {
+      "ms": -18,
+      "client": 9,
+      "kind": "youtube",
+      "at": 30138
+    },
+    {
+      "ms": -13,
+      "client": 0,
+      "kind": "mp4",
+      "at": 31740
+    },
+    {
+      "ms": -50,
+      "client": 1,
+      "kind": "youtube",
+      "at": 31740
+    },
+    {
+      "ms": -86,
+      "client": 2,
+      "kind": "mp4",
+      "at": 31740
+    },
+    {
+      "ms": -58,
+      "client": 4,
+      "kind": "mp4",
+      "at": 31740
+    },
+    {
+      "ms": -99,
+      "client": 5,
+      "kind": "youtube",
+      "at": 31740
+    },
+    {
+      "ms": -50,
+      "client": 6,
+      "kind": "mp4",
+      "at": 31740
+    },
+    {
+      "ms": -19,
+      "client": 7,
+      "kind": "youtube",
+      "at": 31740
+    },
+    {
+      "ms": -63,
+      "client": 8,
+      "kind": "mp4",
+      "at": 31740
+    },
+    {
+      "ms": -76,
+      "client": 9,
+      "kind": "youtube",
+      "at": 31740
+    },
+    {
+      "ms": -15,
+      "client": 0,
+      "kind": "mp4",
+      "at": 32142
+    },
+    {
+      "ms": -50,
+      "client": 1,
+      "kind": "youtube",
+      "at": 32142
+    },
+    {
+      "ms": -69,
+      "client": 2,
+      "kind": "mp4",
+      "at": 32142
+    },
+    {
+      "ms": -60,
+      "client": 4,
+      "kind": "mp4",
+      "at": 32142
+    },
+    {
+      "ms": -101,
+      "client": 5,
+      "kind": "youtube",
+      "at": 32142
+    },
+    {
+      "ms": -54,
+      "client": 6,
+      "kind": "mp4",
+      "at": 32142
+    },
+    {
+      "ms": -23,
+      "client": 7,
+      "kind": "youtube",
+      "at": 32142
+    },
+    {
+      "ms": -65,
+      "client": 8,
+      "kind": "mp4",
+      "at": 32142
+    },
+    {
+      "ms": -79,
+      "client": 9,
+      "kind": "youtube",
+      "at": 32142
+    },
+    {
+      "ms": -16,
+      "client": 0,
+      "kind": "mp4",
+      "at": 32542
+    },
+    {
+      "ms": -48,
+      "client": 1,
+      "kind": "youtube",
+      "at": 32542
+    },
+    {
+      "ms": -71,
+      "client": 2,
+      "kind": "mp4",
+      "at": 32542
+    },
+    {
+      "ms": -60,
+      "client": 4,
+      "kind": "mp4",
+      "at": 32542
+    },
+    {
+      "ms": -102,
+      "client": 5,
+      "kind": "youtube",
+      "at": 32542
+    },
+    {
+      "ms": -56,
+      "client": 6,
+      "kind": "mp4",
+      "at": 32542
+    },
+    {
+      "ms": -24,
+      "client": 7,
+      "kind": "youtube",
+      "at": 32542
+    },
+    {
+      "ms": -64,
+      "client": 8,
+      "kind": "mp4",
+      "at": 32542
+    },
+    {
+      "ms": -79,
+      "client": 9,
+      "kind": "youtube",
+      "at": 32542
+    },
+    {
+      "ms": -17,
+      "client": 0,
+      "kind": "mp4",
+      "at": 32942
+    },
+    {
+      "ms": -46,
+      "client": 1,
+      "kind": "youtube",
+      "at": 32942
+    },
+    {
+      "ms": -72,
+      "client": 2,
+      "kind": "mp4",
+      "at": 32942
+    },
+    {
+      "ms": -60,
+      "client": 4,
+      "kind": "mp4",
+      "at": 32942
+    },
+    {
+      "ms": -103,
+      "client": 5,
+      "kind": "youtube",
+      "at": 32942
+    },
+    {
+      "ms": -58,
+      "client": 6,
+      "kind": "mp4",
+      "at": 32942
+    },
+    {
+      "ms": -26,
+      "client": 7,
+      "kind": "youtube",
+      "at": 32942
+    },
+    {
+      "ms": -64,
+      "client": 8,
+      "kind": "mp4",
+      "at": 32942
+    },
+    {
+      "ms": -80,
+      "client": 9,
+      "kind": "youtube",
+      "at": 32942
+    },
+    {
+      "ms": -68,
+      "client": 0,
+      "kind": "mp4",
+      "at": 33343
+    },
+    {
+      "ms": -95,
+      "client": 1,
+      "kind": "youtube",
+      "at": 33343
+    },
+    {
+      "ms": -125,
+      "client": 2,
+      "kind": "mp4",
+      "at": 33343
+    },
+    {
+      "ms": -111,
+      "client": 4,
+      "kind": "mp4",
+      "at": 33343
+    },
+    {
+      "ms": -155,
+      "client": 5,
+      "kind": "youtube",
+      "at": 33343
+    },
+    {
+      "ms": -110,
+      "client": 6,
+      "kind": "mp4",
+      "at": 33343
+    },
+    {
+      "ms": -78,
+      "client": 7,
+      "kind": "youtube",
+      "at": 33343
+    },
+    {
+      "ms": -115,
+      "client": 8,
+      "kind": "mp4",
+      "at": 33343
+    },
+    {
+      "ms": -131,
+      "client": 9,
+      "kind": "youtube",
+      "at": 33343
+    },
+    {
+      "ms": -703,
+      "client": 0,
+      "kind": "mp4",
+      "at": 34944
+    },
+    {
+      "ms": -28,
+      "client": 1,
+      "kind": "youtube",
+      "at": 34944
+    },
+    {
+      "ms": -2,
+      "client": 2,
+      "kind": "mp4",
+      "at": 34944
+    },
+    {
+      "ms": -88,
+      "client": 3,
+      "kind": "youtube",
+      "at": 34944
+    },
+    {
+      "ms": -37,
+      "client": 4,
+      "kind": "mp4",
+      "at": 34944
+    },
+    {
+      "ms": -54,
+      "client": 5,
+      "kind": "youtube",
+      "at": 34944
+    },
+    {
+      "ms": -192,
+      "client": 6,
+      "kind": "mp4",
+      "at": 34944
+    },
+    {
+      "ms": -83,
+      "client": 7,
+      "kind": "youtube",
+      "at": 34944
+    },
+    {
+      "ms": 22,
+      "client": 8,
+      "kind": "mp4",
+      "at": 34944
+    },
+    {
+      "ms": -67,
+      "client": 9,
+      "kind": "youtube",
+      "at": 34944
+    },
+    {
+      "ms": -27,
+      "client": 1,
+      "kind": "youtube",
+      "at": 35345
+    },
+    {
+      "ms": -4,
+      "client": 2,
+      "kind": "mp4",
+      "at": 35345
+    },
+    {
+      "ms": -89,
+      "client": 3,
+      "kind": "youtube",
+      "at": 35345
+    },
+    {
+      "ms": -38,
+      "client": 4,
+      "kind": "mp4",
+      "at": 35345
+    },
+    {
+      "ms": -56,
+      "client": 5,
+      "kind": "youtube",
+      "at": 35345
+    },
+    {
+      "ms": -155,
+      "client": 6,
+      "kind": "mp4",
+      "at": 35345
+    },
+    {
+      "ms": -86,
+      "client": 7,
+      "kind": "youtube",
+      "at": 35345
+    },
+    {
+      "ms": 21,
+      "client": 8,
+      "kind": "mp4",
+      "at": 35345
+    },
+    {
+      "ms": -69,
+      "client": 9,
+      "kind": "youtube",
+      "at": 35345
+    },
+    {
+      "ms": -954,
+      "client": 0,
+      "kind": "mp4",
+      "at": 35745
+    },
+    {
+      "ms": -25,
+      "client": 1,
+      "kind": "youtube",
+      "at": 35745
+    },
+    {
+      "ms": -6,
+      "client": 2,
+      "kind": "mp4",
+      "at": 35745
+    },
+    {
+      "ms": -89,
+      "client": 3,
+      "kind": "youtube",
+      "at": 35745
+    },
+    {
+      "ms": -38,
+      "client": 4,
+      "kind": "mp4",
+      "at": 35745
+    },
+    {
+      "ms": -57,
+      "client": 5,
+      "kind": "youtube",
+      "at": 35745
+    },
+    {
+      "ms": -121,
+      "client": 6,
+      "kind": "mp4",
+      "at": 35745
+    },
+    {
+      "ms": -87,
+      "client": 7,
+      "kind": "youtube",
+      "at": 35745
+    },
+    {
+      "ms": 22,
+      "client": 8,
+      "kind": "mp4",
+      "at": 35745
+    },
+    {
+      "ms": -69,
+      "client": 9,
+      "kind": "youtube",
+      "at": 35745
+    },
+    {
+      "ms": -915,
+      "client": 0,
+      "kind": "mp4",
+      "at": 36145
+    },
+    {
+      "ms": -23,
+      "client": 1,
+      "kind": "youtube",
+      "at": 36145
+    },
+    {
+      "ms": -8,
+      "client": 2,
+      "kind": "mp4",
+      "at": 36145
+    },
+    {
+      "ms": -89,
+      "client": 3,
+      "kind": "youtube",
+      "at": 36145
+    },
+    {
+      "ms": -38,
+      "client": 4,
+      "kind": "mp4",
+      "at": 36145
+    },
+    {
+      "ms": -58,
+      "client": 5,
+      "kind": "youtube",
+      "at": 36145
+    },
+    {
+      "ms": -94,
+      "client": 6,
+      "kind": "mp4",
+      "at": 36145
+    },
+    {
+      "ms": -89,
+      "client": 7,
+      "kind": "youtube",
+      "at": 36145
+    },
+    {
+      "ms": 22,
+      "client": 8,
+      "kind": "mp4",
+      "at": 36145
+    },
+    {
+      "ms": -70,
+      "client": 9,
+      "kind": "youtube",
+      "at": 36145
+    },
+    {
+      "ms": 65,
+      "client": 0,
+      "kind": "mp4",
+      "at": 37748
+    },
+    {
+      "ms": -45,
+      "client": 1,
+      "kind": "youtube",
+      "at": 37748
+    },
+    {
+      "ms": -79,
+      "client": 2,
+      "kind": "mp4",
+      "at": 37748
+    },
+    {
+      "ms": -34,
+      "client": 3,
+      "kind": "youtube",
+      "at": 37748
+    },
+    {
+      "ms": -50,
+      "client": 4,
+      "kind": "mp4",
+      "at": 37748
+    },
+    {
+      "ms": -18,
+      "client": 5,
+      "kind": "youtube",
+      "at": 37748
+    },
+    {
+      "ms": 4,
+      "client": 6,
+      "kind": "mp4",
+      "at": 37748
+    },
+    {
+      "ms": -48,
+      "client": 8,
+      "kind": "mp4",
+      "at": 37748
+    },
+    {
+      "ms": -80,
+      "client": 9,
+      "kind": "youtube",
+      "at": 37748
+    },
+    {
+      "ms": 65,
+      "client": 0,
+      "kind": "mp4",
+      "at": 38148
+    },
+    {
+      "ms": -43,
+      "client": 1,
+      "kind": "youtube",
+      "at": 38148
+    },
+    {
+      "ms": -81,
+      "client": 2,
+      "kind": "mp4",
+      "at": 38148
+    },
+    {
+      "ms": -35,
+      "client": 3,
+      "kind": "youtube",
+      "at": 38148
+    },
+    {
+      "ms": -50,
+      "client": 4,
+      "kind": "mp4",
+      "at": 38148
+    },
+    {
+      "ms": -19,
+      "client": 5,
+      "kind": "youtube",
+      "at": 38148
+    },
+    {
+      "ms": 3,
+      "client": 6,
+      "kind": "mp4",
+      "at": 38148
+    },
+    {
+      "ms": -48,
+      "client": 8,
+      "kind": "mp4",
+      "at": 38148
+    },
+    {
+      "ms": -81,
+      "client": 9,
+      "kind": "youtube",
+      "at": 38148
+    },
+    {
+      "ms": 64,
+      "client": 0,
+      "kind": "mp4",
+      "at": 38548
+    },
+    {
+      "ms": -41,
+      "client": 1,
+      "kind": "youtube",
+      "at": 38548
+    },
+    {
+      "ms": -63,
+      "client": 2,
+      "kind": "mp4",
+      "at": 38548
+    },
+    {
+      "ms": -35,
+      "client": 3,
+      "kind": "youtube",
+      "at": 38548
+    },
+    {
+      "ms": -50,
+      "client": 4,
+      "kind": "mp4",
+      "at": 38548
+    },
+    {
+      "ms": -20,
+      "client": 5,
+      "kind": "youtube",
+      "at": 38548
+    },
+    {
+      "ms": 1,
+      "client": 6,
+      "kind": "mp4",
+      "at": 38548
+    },
+    {
+      "ms": -869,
+      "client": 7,
+      "kind": "youtube",
+      "at": 38548
+    },
+    {
+      "ms": -48,
+      "client": 8,
+      "kind": "mp4",
+      "at": 38548
+    },
+    {
+      "ms": -81,
+      "client": 9,
+      "kind": "youtube",
+      "at": 38548
+    },
+    {
+      "ms": 62,
+      "client": 0,
+      "kind": "mp4",
+      "at": 38950
+    },
+    {
+      "ms": -41,
+      "client": 1,
+      "kind": "youtube",
+      "at": 38950
+    },
+    {
+      "ms": -66,
+      "client": 2,
+      "kind": "mp4",
+      "at": 38950
+    },
+    {
+      "ms": -37,
+      "client": 3,
+      "kind": "youtube",
+      "at": 38950
+    },
+    {
+      "ms": -52,
+      "client": 4,
+      "kind": "mp4",
+      "at": 38950
+    },
+    {
+      "ms": -22,
+      "client": 5,
+      "kind": "youtube",
+      "at": 38950
+    },
+    {
+      "ms": -3,
+      "client": 6,
+      "kind": "mp4",
+      "at": 38950
+    },
+    {
+      "ms": -84,
+      "client": 9,
+      "kind": "youtube",
+      "at": 38950
+    },
+    {
+      "ms": 62,
+      "client": 0,
+      "kind": "mp4",
+      "at": 39349
+    },
+    {
+      "ms": -38,
+      "client": 1,
+      "kind": "youtube",
+      "at": 39349
+    },
+    {
+      "ms": -67,
+      "client": 2,
+      "kind": "mp4",
+      "at": 39349
+    },
+    {
+      "ms": -36,
+      "client": 3,
+      "kind": "youtube",
+      "at": 39349
+    },
+    {
+      "ms": -51,
+      "client": 4,
+      "kind": "mp4",
+      "at": 39349
+    },
+    {
+      "ms": -22,
+      "client": 5,
+      "kind": "youtube",
+      "at": 39349
+    },
+    {
+      "ms": -4,
+      "client": 6,
+      "kind": "mp4",
+      "at": 39349
+    },
+    {
+      "ms": -598,
+      "client": 8,
+      "kind": "mp4",
+      "at": 39349
+    },
+    {
+      "ms": -83,
+      "client": 9,
+      "kind": "youtube",
+      "at": 39349
+    },
+    {
+      "ms": 62,
+      "client": 0,
+      "kind": "mp4",
+      "at": 39749
+    },
+    {
+      "ms": -36,
+      "client": 1,
+      "kind": "youtube",
+      "at": 39749
+    },
+    {
+      "ms": -69,
+      "client": 2,
+      "kind": "mp4",
+      "at": 39749
+    },
+    {
+      "ms": -37,
+      "client": 3,
+      "kind": "youtube",
+      "at": 39749
+    },
+    {
+      "ms": -51,
+      "client": 4,
+      "kind": "mp4",
+      "at": 39749
+    },
+    {
+      "ms": -23,
+      "client": 5,
+      "kind": "youtube",
+      "at": 39749
+    },
+    {
+      "ms": -6,
+      "client": 6,
+      "kind": "mp4",
+      "at": 39749
+    },
+    {
+      "ms": 18,
+      "client": 7,
+      "kind": "youtube",
+      "at": 39749
+    },
+    {
+      "ms": -558,
+      "client": 8,
+      "kind": "mp4",
+      "at": 39749
+    },
+    {
+      "ms": -83,
+      "client": 9,
+      "kind": "youtube",
+      "at": 39749
+    },
+    {
+      "ms": 62,
+      "client": 0,
+      "kind": "mp4",
+      "at": 40149
+    },
+    {
+      "ms": -34,
+      "client": 1,
+      "kind": "youtube",
+      "at": 40149
+    },
+    {
+      "ms": -70,
+      "client": 2,
+      "kind": "mp4",
+      "at": 40149
+    },
+    {
+      "ms": -37,
+      "client": 3,
+      "kind": "youtube",
+      "at": 40149
+    },
+    {
+      "ms": -51,
+      "client": 4,
+      "kind": "mp4",
+      "at": 40149
+    },
+    {
+      "ms": -24,
+      "client": 5,
+      "kind": "youtube",
+      "at": 40149
+    },
+    {
+      "ms": -7,
+      "client": 6,
+      "kind": "mp4",
+      "at": 40149
+    },
+    {
+      "ms": 16,
+      "client": 7,
+      "kind": "youtube",
+      "at": 40149
+    },
+    {
+      "ms": -518,
+      "client": 8,
+      "kind": "mp4",
+      "at": 40149
+    },
+    {
+      "ms": -84,
+      "client": 9,
+      "kind": "youtube",
+      "at": 40149
+    },
+    {
+      "ms": -105,
+      "client": 0,
+      "kind": "mp4",
+      "at": 41750
+    },
+    {
+      "ms": -77,
+      "client": 1,
+      "kind": "youtube",
+      "at": 41750
+    },
+    {
+      "ms": -88,
+      "client": 2,
+      "kind": "mp4",
+      "at": 41750
+    },
+    {
+      "ms": -84,
+      "client": 3,
+      "kind": "youtube",
+      "at": 41750
+    },
+    {
+      "ms": -104,
+      "client": 4,
+      "kind": "mp4",
+      "at": 41750
+    },
+    {
+      "ms": -123,
+      "client": 5,
+      "kind": "youtube",
+      "at": 41750
+    },
+    {
+      "ms": -89,
+      "client": 6,
+      "kind": "mp4",
+      "at": 41750
+    },
+    {
+      "ms": -121,
+      "client": 7,
+      "kind": "youtube",
+      "at": 41750
+    },
+    {
+      "ms": 61,
+      "client": 8,
+      "kind": "mp4",
+      "at": 41750
+    },
+    {
+      "ms": -74,
+      "client": 9,
+      "kind": "youtube",
+      "at": 41750
+    },
+    {
+      "ms": -84,
+      "client": 0,
+      "kind": "mp4",
+      "at": 42152
+    },
+    {
+      "ms": -77,
+      "client": 1,
+      "kind": "youtube",
+      "at": 42152
+    },
+    {
+      "ms": -72,
+      "client": 2,
+      "kind": "mp4",
+      "at": 42152
+    },
+    {
+      "ms": -87,
+      "client": 3,
+      "kind": "youtube",
+      "at": 42152
+    },
+    {
+      "ms": -82,
+      "client": 4,
+      "kind": "mp4",
+      "at": 42152
+    },
+    {
+      "ms": -125,
+      "client": 5,
+      "kind": "youtube",
+      "at": 42152
+    },
+    {
+      "ms": -73,
+      "client": 6,
+      "kind": "mp4",
+      "at": 42152
+    },
+    {
+      "ms": -124,
+      "client": 7,
+      "kind": "youtube",
+      "at": 42152
+    },
+    {
+      "ms": 60,
+      "client": 8,
+      "kind": "mp4",
+      "at": 42152
+    },
+    {
+      "ms": -76,
+      "client": 9,
+      "kind": "youtube",
+      "at": 42152
+    },
+    {
+      "ms": -64,
+      "client": 0,
+      "kind": "mp4",
+      "at": 42552
+    },
+    {
+      "ms": -75,
+      "client": 1,
+      "kind": "youtube",
+      "at": 42552
+    },
+    {
+      "ms": -74,
+      "client": 2,
+      "kind": "mp4",
+      "at": 42552
+    },
+    {
+      "ms": -87,
+      "client": 3,
+      "kind": "youtube",
+      "at": 42552
+    },
+    {
+      "ms": -126,
+      "client": 5,
+      "kind": "youtube",
+      "at": 42552
+    },
+    {
+      "ms": -75,
+      "client": 6,
+      "kind": "mp4",
+      "at": 42552
+    },
+    {
+      "ms": -126,
+      "client": 7,
+      "kind": "youtube",
+      "at": 42552
+    },
+    {
+      "ms": 60,
+      "client": 8,
+      "kind": "mp4",
+      "at": 42552
+    },
+    {
+      "ms": -76,
+      "client": 9,
+      "kind": "youtube",
+      "at": 42552
+    },
+    {
+      "ms": -68,
+      "client": 0,
+      "kind": "mp4",
+      "at": 42956
+    },
+    {
+      "ms": -78,
+      "client": 1,
+      "kind": "youtube",
+      "at": 42956
+    },
+    {
+      "ms": -79,
+      "client": 2,
+      "kind": "mp4",
+      "at": 42956
+    },
+    {
+      "ms": -91,
+      "client": 3,
+      "kind": "youtube",
+      "at": 42956
+    },
+    {
+      "ms": -131,
+      "client": 5,
+      "kind": "youtube",
+      "at": 42956
+    },
+    {
+      "ms": -81,
+      "client": 6,
+      "kind": "mp4",
+      "at": 42956
+    },
+    {
+      "ms": -132,
+      "client": 7,
+      "kind": "youtube",
+      "at": 42956
+    },
+    {
+      "ms": 56,
+      "client": 8,
+      "kind": "mp4",
+      "at": 42956
+    },
+    {
+      "ms": -81,
+      "client": 9,
+      "kind": "youtube",
+      "at": 42956
+    },
+    {
+      "ms": -70,
+      "client": 0,
+      "kind": "mp4",
+      "at": 43357
+    },
+    {
+      "ms": -77,
+      "client": 1,
+      "kind": "youtube",
+      "at": 43357
+    },
+    {
+      "ms": -82,
+      "client": 2,
+      "kind": "mp4",
+      "at": 43357
+    },
+    {
+      "ms": -92,
+      "client": 3,
+      "kind": "youtube",
+      "at": 43357
+    },
+    {
+      "ms": -133,
+      "client": 5,
+      "kind": "youtube",
+      "at": 43357
+    },
+    {
+      "ms": -64,
+      "client": 6,
+      "kind": "mp4",
+      "at": 43357
+    },
+    {
+      "ms": -134,
+      "client": 7,
+      "kind": "youtube",
+      "at": 43357
+    },
+    {
+      "ms": 56,
+      "client": 8,
+      "kind": "mp4",
+      "at": 43357
+    },
+    {
+      "ms": -82,
+      "client": 9,
+      "kind": "youtube",
+      "at": 43357
+    },
+    {
+      "ms": -76,
+      "client": 1,
+      "kind": "youtube",
+      "at": 43758
+    },
+    {
+      "ms": -64,
+      "client": 2,
+      "kind": "mp4",
+      "at": 43758
+    },
+    {
+      "ms": -94,
+      "client": 3,
+      "kind": "youtube",
+      "at": 43758
+    },
+    {
+      "ms": -900,
+      "client": 4,
+      "kind": "mp4",
+      "at": 43758
+    },
+    {
+      "ms": -135,
+      "client": 5,
+      "kind": "youtube",
+      "at": 43758
+    },
+    {
+      "ms": -67,
+      "client": 6,
+      "kind": "mp4",
+      "at": 43758
+    },
+    {
+      "ms": -137,
+      "client": 7,
+      "kind": "youtube",
+      "at": 43758
+    },
+    {
+      "ms": 55,
+      "client": 8,
+      "kind": "mp4",
+      "at": 43758
+    },
+    {
+      "ms": -84,
+      "client": 9,
+      "kind": "youtube",
+      "at": 43758
+    },
+    {
+      "ms": -119,
+      "client": 0,
+      "kind": "mp4",
+      "at": 45359
+    },
+    {
+      "ms": -74,
+      "client": 1,
+      "kind": "youtube",
+      "at": 45360
+    },
+    {
+      "ms": -148,
+      "client": 2,
+      "kind": "mp4",
+      "at": 45360
+    },
+    {
+      "ms": -126,
+      "client": 3,
+      "kind": "youtube",
+      "at": 45360
+    },
+    {
+      "ms": -2,
+      "client": 4,
+      "kind": "mp4",
+      "at": 45360
+    },
+    {
+      "ms": -327,
+      "client": 5,
+      "kind": "youtube",
+      "at": 45360
+    },
+    {
+      "ms": -373,
+      "client": 6,
+      "kind": "mp4",
+      "at": 45360
+    },
+    {
+      "ms": -83,
+      "client": 7,
+      "kind": "youtube",
+      "at": 45360
+    },
+    {
+      "ms": -96,
+      "client": 8,
+      "kind": "mp4",
+      "at": 45360
+    },
+    {
+      "ms": -124,
+      "client": 9,
+      "kind": "youtube",
+      "at": 45360
+    },
+    {
+      "ms": -93,
+      "client": 0,
+      "kind": "mp4",
+      "at": 45760
+    },
+    {
+      "ms": -72,
+      "client": 1,
+      "kind": "youtube",
+      "at": 45760
+    },
+    {
+      "ms": -114,
+      "client": 2,
+      "kind": "mp4",
+      "at": 45760
+    },
+    {
+      "ms": -126,
+      "client": 3,
+      "kind": "youtube",
+      "at": 45760
+    },
+    {
+      "ms": -2,
+      "client": 4,
+      "kind": "mp4",
+      "at": 45760
+    },
+    {
+      "ms": -327,
+      "client": 5,
+      "kind": "youtube",
+      "at": 45760
+    },
+    {
+      "ms": -335,
+      "client": 6,
+      "kind": "mp4",
+      "at": 45760
+    },
+    {
+      "ms": -85,
+      "client": 7,
+      "kind": "youtube",
+      "at": 45760
+    },
+    {
+      "ms": -71,
+      "client": 8,
+      "kind": "mp4",
+      "at": 45760
+    },
+    {
+      "ms": -124,
+      "client": 9,
+      "kind": "youtube",
+      "at": 45760
+    },
+    {
+      "ms": -70,
+      "client": 0,
+      "kind": "mp4",
+      "at": 46161
+    },
+    {
+      "ms": -71,
+      "client": 1,
+      "kind": "youtube",
+      "at": 46161
+    },
+    {
+      "ms": -89,
+      "client": 2,
+      "kind": "mp4",
+      "at": 46161
+    },
+    {
+      "ms": -128,
+      "client": 3,
+      "kind": "youtube",
+      "at": 46161
+    },
+    {
+      "ms": -3,
+      "client": 4,
+      "kind": "mp4",
+      "at": 46161
+    },
+    {
+      "ms": -329,
+      "client": 5,
+      "kind": "youtube",
+      "at": 46161
+    },
+    {
+      "ms": -298,
+      "client": 6,
+      "kind": "mp4",
+      "at": 46161
+    },
+    {
+      "ms": -87,
+      "client": 7,
+      "kind": "youtube",
+      "at": 46161
+    },
+    {
+      "ms": -72,
+      "client": 8,
+      "kind": "mp4",
+      "at": 46161
+    },
+    {
+      "ms": -126,
+      "client": 9,
+      "kind": "youtube",
+      "at": 46161
+    },
+    {
+      "ms": -72,
+      "client": 0,
+      "kind": "mp4",
+      "at": 46562
+    },
+    {
+      "ms": -70,
+      "client": 1,
+      "kind": "youtube",
+      "at": 46562
+    },
+    {
+      "ms": -71,
+      "client": 2,
+      "kind": "mp4",
+      "at": 46562
+    },
+    {
+      "ms": -129,
+      "client": 3,
+      "kind": "youtube",
+      "at": 46562
+    },
+    {
+      "ms": -4,
+      "client": 4,
+      "kind": "mp4",
+      "at": 46562
+    },
+    {
+      "ms": -331,
+      "client": 5,
+      "kind": "youtube",
+      "at": 46562
+    },
+    {
+      "ms": -261,
+      "client": 6,
+      "kind": "mp4",
+      "at": 46562
+    },
+    {
+      "ms": -90,
+      "client": 7,
+      "kind": "youtube",
+      "at": 46562
+    },
+    {
+      "ms": -72,
+      "client": 8,
+      "kind": "mp4",
+      "at": 46562
+    },
+    {
+      "ms": -127,
+      "client": 9,
+      "kind": "youtube",
+      "at": 46562
+    },
+    {
+      "ms": 25,
+      "client": 0,
+      "kind": "mp4",
+      "at": 48565
+    },
+    {
+      "ms": 27,
+      "client": 1,
+      "kind": "youtube",
+      "at": 48565
+    },
+    {
+      "ms": 24,
+      "client": 2,
+      "kind": "mp4",
+      "at": 48565
+    },
+    {
+      "ms": 25,
+      "client": 3,
+      "kind": "youtube",
+      "at": 48565
+    },
+    {
+      "ms": 24,
+      "client": 4,
+      "kind": "mp4",
+      "at": 48565
+    },
+    {
+      "ms": 24,
+      "client": 5,
+      "kind": "youtube",
+      "at": 48565
+    },
+    {
+      "ms": 23,
+      "client": 6,
+      "kind": "mp4",
+      "at": 48565
+    },
+    {
+      "ms": 24,
+      "client": 7,
+      "kind": "youtube",
+      "at": 48565
+    },
+    {
+      "ms": 25,
+      "client": 8,
+      "kind": "mp4",
+      "at": 48565
+    },
+    {
+      "ms": 25,
+      "client": 9,
+      "kind": "youtube",
+      "at": 48565
+    },
+    {
+      "ms": 24,
+      "client": 0,
+      "kind": "mp4",
+      "at": 48965
+    },
+    {
+      "ms": 29,
+      "client": 1,
+      "kind": "youtube",
+      "at": 48965
+    },
+    {
+      "ms": 22,
+      "client": 2,
+      "kind": "mp4",
+      "at": 48965
+    },
+    {
+      "ms": 25,
+      "client": 3,
+      "kind": "youtube",
+      "at": 48965
+    },
+    {
+      "ms": 24,
+      "client": 4,
+      "kind": "mp4",
+      "at": 48965
+    },
+    {
+      "ms": 24,
+      "client": 5,
+      "kind": "youtube",
+      "at": 48965
+    },
+    {
+      "ms": 22,
+      "client": 6,
+      "kind": "mp4",
+      "at": 48965
+    },
+    {
+      "ms": 22,
+      "client": 7,
+      "kind": "youtube",
+      "at": 48965
+    },
+    {
+      "ms": 26,
+      "client": 8,
+      "kind": "mp4",
+      "at": 48965
+    },
+    {
+      "ms": 25,
+      "client": 9,
+      "kind": "youtube",
+      "at": 48965
+    },
+    {
+      "ms": -27,
+      "client": 0,
+      "kind": "mp4",
+      "at": 49366
+    },
+    {
+      "ms": -21,
+      "client": 1,
+      "kind": "youtube",
+      "at": 49366
+    },
+    {
+      "ms": -30,
+      "client": 2,
+      "kind": "mp4",
+      "at": 49366
+    },
+    {
+      "ms": -27,
+      "client": 3,
+      "kind": "youtube",
+      "at": 49366
+    },
+    {
+      "ms": -27,
+      "client": 4,
+      "kind": "mp4",
+      "at": 49366
+    },
+    {
+      "ms": -28,
+      "client": 5,
+      "kind": "youtube",
+      "at": 49366
+    },
+    {
+      "ms": -31,
+      "client": 6,
+      "kind": "mp4",
+      "at": 49366
+    },
+    {
+      "ms": -30,
+      "client": 7,
+      "kind": "youtube",
+      "at": 49366
+    },
+    {
+      "ms": -25,
+      "client": 8,
+      "kind": "mp4",
+      "at": 49366
+    },
+    {
+      "ms": -27,
+      "client": 9,
+      "kind": "youtube",
+      "at": 49366
+    },
+    {
+      "ms": -28,
+      "client": 0,
+      "kind": "mp4",
+      "at": 49766
+    },
+    {
+      "ms": -19,
+      "client": 1,
+      "kind": "youtube",
+      "at": 49766
+    },
+    {
+      "ms": -32,
+      "client": 2,
+      "kind": "mp4",
+      "at": 49766
+    },
+    {
+      "ms": -27,
+      "client": 3,
+      "kind": "youtube",
+      "at": 49766
+    },
+    {
+      "ms": -27,
+      "client": 4,
+      "kind": "mp4",
+      "at": 49766
+    },
+    {
+      "ms": -29,
+      "client": 5,
+      "kind": "youtube",
+      "at": 49766
+    },
+    {
+      "ms": -33,
+      "client": 6,
+      "kind": "mp4",
+      "at": 49766
+    },
+    {
+      "ms": -32,
+      "client": 7,
+      "kind": "youtube",
+      "at": 49766
+    },
+    {
+      "ms": -25,
+      "client": 8,
+      "kind": "mp4",
+      "at": 49766
+    },
+    {
+      "ms": -27,
+      "client": 9,
+      "kind": "youtube",
+      "at": 49766
+    },
+    {
+      "ms": -28,
+      "client": 0,
+      "kind": "mp4",
+      "at": 50166
+    },
+    {
+      "ms": -17,
+      "client": 1,
+      "kind": "youtube",
+      "at": 50166
+    },
+    {
+      "ms": -34,
+      "client": 2,
+      "kind": "mp4",
+      "at": 50166
+    },
+    {
+      "ms": -27,
+      "client": 3,
+      "kind": "youtube",
+      "at": 50166
+    },
+    {
+      "ms": -27,
+      "client": 4,
+      "kind": "mp4",
+      "at": 50166
+    },
+    {
+      "ms": -30,
+      "client": 5,
+      "kind": "youtube",
+      "at": 50166
+    },
+    {
+      "ms": -35,
+      "client": 6,
+      "kind": "mp4",
+      "at": 50166
+    },
+    {
+      "ms": -33,
+      "client": 7,
+      "kind": "youtube",
+      "at": 50166
+    },
+    {
+      "ms": -24,
+      "client": 8,
+      "kind": "mp4",
+      "at": 50166
+    },
+    {
+      "ms": -27,
+      "client": 9,
+      "kind": "youtube",
+      "at": 50166
+    },
+    {
+      "ms": -29,
+      "client": 0,
+      "kind": "mp4",
+      "at": 50567
+    },
+    {
+      "ms": -16,
+      "client": 1,
+      "kind": "youtube",
+      "at": 50567
+    },
+    {
+      "ms": -36,
+      "client": 2,
+      "kind": "mp4",
+      "at": 50567
+    },
+    {
+      "ms": -28,
+      "client": 3,
+      "kind": "youtube",
+      "at": 50567
+    },
+    {
+      "ms": -28,
+      "client": 4,
+      "kind": "mp4",
+      "at": 50567
+    },
+    {
+      "ms": -32,
+      "client": 5,
+      "kind": "youtube",
+      "at": 50567
+    },
+    {
+      "ms": -37,
+      "client": 6,
+      "kind": "mp4",
+      "at": 50567
+    },
+    {
+      "ms": -36,
+      "client": 7,
+      "kind": "youtube",
+      "at": 50567
+    },
+    {
+      "ms": -25,
+      "client": 8,
+      "kind": "mp4",
+      "at": 50567
+    },
+    {
+      "ms": -29,
+      "client": 9,
+      "kind": "youtube",
+      "at": 50567
+    },
+    {
+      "ms": -30,
+      "client": 0,
+      "kind": "mp4",
+      "at": 50967
+    },
+    {
+      "ms": -14,
+      "client": 1,
+      "kind": "youtube",
+      "at": 50967
+    },
+    {
+      "ms": -38,
+      "client": 2,
+      "kind": "mp4",
+      "at": 50967
+    },
+    {
+      "ms": -29,
+      "client": 3,
+      "kind": "youtube",
+      "at": 50967
+    },
+    {
+      "ms": -28,
+      "client": 4,
+      "kind": "mp4",
+      "at": 50967
+    },
+    {
+      "ms": -32,
+      "client": 5,
+      "kind": "youtube",
+      "at": 50967
+    },
+    {
+      "ms": -39,
+      "client": 6,
+      "kind": "mp4",
+      "at": 50967
+    },
+    {
+      "ms": -38,
+      "client": 7,
+      "kind": "youtube",
+      "at": 50967
+    },
+    {
+      "ms": -24,
+      "client": 8,
+      "kind": "mp4",
+      "at": 50967
+    },
+    {
+      "ms": -29,
+      "client": 9,
+      "kind": "youtube",
+      "at": 50967
+    },
+    {
+      "ms": -31,
+      "client": 0,
+      "kind": "mp4",
+      "at": 51368
+    },
+    {
+      "ms": -13,
+      "client": 1,
+      "kind": "youtube",
+      "at": 51368
+    },
+    {
+      "ms": -40,
+      "client": 2,
+      "kind": "mp4",
+      "at": 51368
+    },
+    {
+      "ms": -30,
+      "client": 3,
+      "kind": "youtube",
+      "at": 51368
+    },
+    {
+      "ms": -29,
+      "client": 4,
+      "kind": "mp4",
+      "at": 51368
+    },
+    {
+      "ms": -34,
+      "client": 5,
+      "kind": "youtube",
+      "at": 51368
+    },
+    {
+      "ms": -42,
+      "client": 6,
+      "kind": "mp4",
+      "at": 51368
+    },
+    {
+      "ms": -40,
+      "client": 7,
+      "kind": "youtube",
+      "at": 51368
+    },
+    {
+      "ms": -25,
+      "client": 8,
+      "kind": "mp4",
+      "at": 51368
+    },
+    {
+      "ms": -31,
+      "client": 9,
+      "kind": "youtube",
+      "at": 51368
+    },
+    {
+      "ms": -73,
+      "client": 0,
+      "kind": "mp4",
+      "at": 52969
+    },
+    {
+      "ms": -88,
+      "client": 1,
+      "kind": "youtube",
+      "at": 52969
+    },
+    {
+      "ms": -40,
+      "client": 2,
+      "kind": "mp4",
+      "at": 52969
+    },
+    {
+      "ms": -73,
+      "client": 3,
+      "kind": "youtube",
+      "at": 52969
+    },
+    {
+      "ms": -47,
+      "client": 4,
+      "kind": "mp4",
+      "at": 52969
+    },
+    {
+      "ms": -51,
+      "client": 5,
+      "kind": "youtube",
+      "at": 52969
+    },
+    {
+      "ms": -61,
+      "client": 6,
+      "kind": "mp4",
+      "at": 52969
+    },
+    {
+      "ms": -115,
+      "client": 7,
+      "kind": "youtube",
+      "at": 52969
+    },
+    {
+      "ms": -74,
+      "client": 8,
+      "kind": "mp4",
+      "at": 52969
+    },
+    {
+      "ms": -47,
+      "client": 9,
+      "kind": "youtube",
+      "at": 52969
+    },
+    {
+      "ms": -74,
+      "client": 0,
+      "kind": "mp4",
+      "at": 53369
+    },
+    {
+      "ms": -86,
+      "client": 1,
+      "kind": "youtube",
+      "at": 53369
+    },
+    {
+      "ms": -42,
+      "client": 2,
+      "kind": "mp4",
+      "at": 53369
+    },
+    {
+      "ms": -73,
+      "client": 3,
+      "kind": "youtube",
+      "at": 53369
+    },
+    {
+      "ms": -47,
+      "client": 4,
+      "kind": "mp4",
+      "at": 53369
+    },
+    {
+      "ms": -52,
+      "client": 5,
+      "kind": "youtube",
+      "at": 53369
+    },
+    {
+      "ms": -63,
+      "client": 6,
+      "kind": "mp4",
+      "at": 53369
+    },
+    {
+      "ms": -116,
+      "client": 7,
+      "kind": "youtube",
+      "at": 53369
+    },
+    {
+      "ms": -74,
+      "client": 8,
+      "kind": "mp4",
+      "at": 53369
+    },
+    {
+      "ms": -47,
+      "client": 9,
+      "kind": "youtube",
+      "at": 53369
+    },
+    {
+      "ms": -74,
+      "client": 0,
+      "kind": "mp4",
+      "at": 53769
+    },
+    {
+      "ms": -84,
+      "client": 1,
+      "kind": "youtube",
+      "at": 53769
+    },
+    {
+      "ms": -44,
+      "client": 2,
+      "kind": "mp4",
+      "at": 53769
+    },
+    {
+      "ms": -73,
+      "client": 3,
+      "kind": "youtube",
+      "at": 53769
+    },
+    {
+      "ms": -47,
+      "client": 4,
+      "kind": "mp4",
+      "at": 53769
+    },
+    {
+      "ms": -52,
+      "client": 5,
+      "kind": "youtube",
+      "at": 53769
+    },
+    {
+      "ms": -64,
+      "client": 6,
+      "kind": "mp4",
+      "at": 53769
+    },
+    {
+      "ms": -118,
+      "client": 7,
+      "kind": "youtube",
+      "at": 53769
+    },
+    {
+      "ms": -73,
+      "client": 8,
+      "kind": "mp4",
+      "at": 53769
+    },
+    {
+      "ms": -47,
+      "client": 9,
+      "kind": "youtube",
+      "at": 53769
+    },
+    {
+      "ms": -82,
+      "client": 1,
+      "kind": "youtube",
+      "at": 54169
+    },
+    {
+      "ms": -45,
+      "client": 2,
+      "kind": "mp4",
+      "at": 54169
+    },
+    {
+      "ms": -73,
+      "client": 3,
+      "kind": "youtube",
+      "at": 54169
+    },
+    {
+      "ms": -47,
+      "client": 4,
+      "kind": "mp4",
+      "at": 54169
+    },
+    {
+      "ms": -53,
+      "client": 5,
+      "kind": "youtube",
+      "at": 54169
+    },
+    {
+      "ms": -66,
+      "client": 6,
+      "kind": "mp4",
+      "at": 54169
+    },
+    {
+      "ms": -119,
+      "client": 7,
+      "kind": "youtube",
+      "at": 54169
+    },
+    {
+      "ms": -73,
+      "client": 8,
+      "kind": "mp4",
+      "at": 54169
+    },
+    {
+      "ms": -48,
+      "client": 9,
+      "kind": "youtube",
+      "at": 54169
+    },
+    {
+      "ms": -475,
+      "client": 0,
+      "kind": "mp4",
+      "at": 54569
+    },
+    {
+      "ms": -81,
+      "client": 1,
+      "kind": "youtube",
+      "at": 54569
+    },
+    {
+      "ms": -47,
+      "client": 2,
+      "kind": "mp4",
+      "at": 54569
+    },
+    {
+      "ms": -74,
+      "client": 3,
+      "kind": "youtube",
+      "at": 54569
+    },
+    {
+      "ms": -47,
+      "client": 4,
+      "kind": "mp4",
+      "at": 54569
+    },
+    {
+      "ms": -54,
+      "client": 5,
+      "kind": "youtube",
+      "at": 54569
+    },
+    {
+      "ms": -68,
+      "client": 6,
+      "kind": "mp4",
+      "at": 54569
+    },
+    {
+      "ms": -121,
+      "client": 7,
+      "kind": "youtube",
+      "at": 54569
+    },
+    {
+      "ms": -73,
+      "client": 8,
+      "kind": "mp4",
+      "at": 54569
+    },
+    {
+      "ms": -48,
+      "client": 9,
+      "kind": "youtube",
+      "at": 54569
+    },
+    {
+      "ms": 80,
+      "client": 0,
+      "kind": "mp4",
+      "at": 56172
+    },
+    {
+      "ms": -111,
+      "client": 1,
+      "kind": "youtube",
+      "at": 56172
+    },
+    {
+      "ms": -66,
+      "client": 2,
+      "kind": "mp4",
+      "at": 56172
+    },
+    {
+      "ms": -127,
+      "client": 3,
+      "kind": "youtube",
+      "at": 56172
+    },
+    {
+      "ms": -67,
+      "client": 4,
+      "kind": "mp4",
+      "at": 56172
+    },
+    {
+      "ms": -116,
+      "client": 5,
+      "kind": "youtube",
+      "at": 56172
+    },
+    {
+      "ms": -105,
+      "client": 6,
+      "kind": "mp4",
+      "at": 56172
+    },
+    {
+      "ms": -136,
+      "client": 7,
+      "kind": "youtube",
+      "at": 56172
+    },
+    {
+      "ms": -70,
+      "client": 8,
+      "kind": "mp4",
+      "at": 56172
+    },
+    {
+      "ms": -91,
+      "client": 9,
+      "kind": "youtube",
+      "at": 56172
+    },
+    {
+      "ms": 60,
+      "client": 0,
+      "kind": "mp4",
+      "at": 56572
+    },
+    {
+      "ms": -110,
+      "client": 1,
+      "kind": "youtube",
+      "at": 56572
+    },
+    {
+      "ms": -67,
+      "client": 2,
+      "kind": "mp4",
+      "at": 56572
+    },
+    {
+      "ms": -127,
+      "client": 3,
+      "kind": "youtube",
+      "at": 56572
+    },
+    {
+      "ms": -67,
+      "client": 4,
+      "kind": "mp4",
+      "at": 56572
+    },
+    {
+      "ms": -117,
+      "client": 5,
+      "kind": "youtube",
+      "at": 56572
+    },
+    {
+      "ms": -83,
+      "client": 6,
+      "kind": "mp4",
+      "at": 56572
+    },
+    {
+      "ms": -138,
+      "client": 7,
+      "kind": "youtube",
+      "at": 56572
+    },
+    {
+      "ms": -69,
+      "client": 8,
+      "kind": "mp4",
+      "at": 56572
+    },
+    {
+      "ms": -92,
+      "client": 9,
+      "kind": "youtube",
+      "at": 56572
+    },
+    {
+      "ms": 59,
+      "client": 0,
+      "kind": "mp4",
+      "at": 56972
+    },
+    {
+      "ms": -108,
+      "client": 1,
+      "kind": "youtube",
+      "at": 56972
+    },
+    {
+      "ms": -69,
+      "client": 2,
+      "kind": "mp4",
+      "at": 56972
+    },
+    {
+      "ms": -127,
+      "client": 3,
+      "kind": "youtube",
+      "at": 56972
+    },
+    {
+      "ms": -67,
+      "client": 4,
+      "kind": "mp4",
+      "at": 56972
+    },
+    {
+      "ms": -65,
+      "client": 6,
+      "kind": "mp4",
+      "at": 56972
+    },
+    {
+      "ms": -69,
+      "client": 8,
+      "kind": "mp4",
+      "at": 56972
+    },
+    {
+      "ms": -92,
+      "client": 9,
+      "kind": "youtube",
+      "at": 56972
+    },
+    {
+      "ms": 58,
+      "client": 0,
+      "kind": "mp4",
+      "at": 57373
+    },
+    {
+      "ms": -107,
+      "client": 1,
+      "kind": "youtube",
+      "at": 57373
+    },
+    {
+      "ms": -72,
+      "client": 2,
+      "kind": "mp4",
+      "at": 57373
+    },
+    {
+      "ms": -129,
+      "client": 3,
+      "kind": "youtube",
+      "at": 57373
+    },
+    {
+      "ms": -68,
+      "client": 4,
+      "kind": "mp4",
+      "at": 57373
+    },
+    {
+      "ms": -68,
+      "client": 6,
+      "kind": "mp4",
+      "at": 57373
+    },
+    {
+      "ms": -441,
+      "client": 7,
+      "kind": "youtube",
+      "at": 57373
+    },
+    {
+      "ms": -70,
+      "client": 8,
+      "kind": "mp4",
+      "at": 57373
+    },
+    {
+      "ms": -93,
+      "client": 9,
+      "kind": "youtube",
+      "at": 57373
+    },
+    {
+      "ms": 57,
+      "client": 0,
+      "kind": "mp4",
+      "at": 57774
+    },
+    {
+      "ms": -106,
+      "client": 1,
+      "kind": "youtube",
+      "at": 57774
+    },
+    {
+      "ms": -74,
+      "client": 2,
+      "kind": "mp4",
+      "at": 57774
+    },
+    {
+      "ms": -130,
+      "client": 3,
+      "kind": "youtube",
+      "at": 57774
+    },
+    {
+      "ms": -69,
+      "client": 4,
+      "kind": "mp4",
+      "at": 57774
+    },
+    {
+      "ms": -670,
+      "client": 5,
+      "kind": "youtube",
+      "at": 57774
+    },
+    {
+      "ms": -70,
+      "client": 6,
+      "kind": "mp4",
+      "at": 57774
+    },
+    {
+      "ms": -444,
+      "client": 7,
+      "kind": "youtube",
+      "at": 57775
+    },
+    {
+      "ms": -71,
+      "client": 8,
+      "kind": "mp4",
+      "at": 57775
+    },
+    {
+      "ms": -96,
+      "client": 9,
+      "kind": "youtube",
+      "at": 57775
+    },
+    {
+      "ms": -125,
+      "client": 0,
+      "kind": "mp4",
+      "at": 58975
+    },
+    {
+      "ms": -64,
+      "client": 1,
+      "kind": "youtube",
+      "at": 58975
+    },
+    {
+      "ms": -39,
+      "client": 2,
+      "kind": "mp4",
+      "at": 58975
+    },
+    {
+      "ms": -82,
+      "client": 3,
+      "kind": "youtube",
+      "at": 58975
+    },
+    {
+      "ms": -80,
+      "client": 4,
+      "kind": "mp4",
+      "at": 58975
+    },
+    {
+      "ms": -74,
+      "client": 5,
+      "kind": "youtube",
+      "at": 58975
+    },
+    {
+      "ms": -88,
+      "client": 6,
+      "kind": "mp4",
+      "at": 58975
+    },
+    {
+      "ms": -83,
+      "client": 7,
+      "kind": "youtube",
+      "at": 58975
+    },
+    {
+      "ms": -107,
+      "client": 8,
+      "kind": "mp4",
+      "at": 58975
+    },
+    {
+      "ms": -67,
+      "client": 9,
+      "kind": "youtube",
+      "at": 58975
+    },
+    {
+      "ms": -98,
+      "client": 0,
+      "kind": "mp4",
+      "at": 59376
+    },
+    {
+      "ms": -63,
+      "client": 1,
+      "kind": "youtube",
+      "at": 59376
+    },
+    {
+      "ms": -42,
+      "client": 2,
+      "kind": "mp4",
+      "at": 59376
+    },
+    {
+      "ms": -84,
+      "client": 3,
+      "kind": "youtube",
+      "at": 59376
+    },
+    {
+      "ms": -61,
+      "client": 4,
+      "kind": "mp4",
+      "at": 59376
+    },
+    {
+      "ms": -76,
+      "client": 5,
+      "kind": "youtube",
+      "at": 59376
+    },
+    {
+      "ms": -71,
+      "client": 6,
+      "kind": "mp4",
+      "at": 59376
+    },
+    {
+      "ms": -86,
+      "client": 7,
+      "kind": "youtube",
+      "at": 59376
+    },
+    {
+      "ms": -84,
+      "client": 8,
+      "kind": "mp4",
+      "at": 59376
+    },
+    {
+      "ms": -69,
+      "client": 9,
+      "kind": "youtube",
+      "at": 59376
+    },
+    {
+      "ms": -75,
+      "client": 0,
+      "kind": "mp4",
+      "at": 59776
+    },
+    {
+      "ms": -61,
+      "client": 1,
+      "kind": "youtube",
+      "at": 59776
+    },
+    {
+      "ms": -43,
+      "client": 2,
+      "kind": "mp4",
+      "at": 59776
+    },
+    {
+      "ms": -84,
+      "client": 3,
+      "kind": "youtube",
+      "at": 59776
+    },
+    {
+      "ms": -61,
+      "client": 4,
+      "kind": "mp4",
+      "at": 59776
+    },
+    {
+      "ms": -77,
+      "client": 5,
+      "kind": "youtube",
+      "at": 59776
+    },
+    {
+      "ms": -73,
+      "client": 6,
+      "kind": "mp4",
+      "at": 59776
+    },
+    {
+      "ms": -88,
+      "client": 7,
+      "kind": "youtube",
+      "at": 59776
+    },
+    {
+      "ms": -64,
+      "client": 8,
+      "kind": "mp4",
+      "at": 59776
+    },
+    {
+      "ms": -69,
+      "client": 9,
+      "kind": "youtube",
+      "at": 59776
+    },
+    {
+      "ms": -76,
+      "client": 0,
+      "kind": "mp4",
+      "at": 60177
+    },
+    {
+      "ms": -61,
+      "client": 1,
+      "kind": "youtube",
+      "at": 60177
+    },
+    {
+      "ms": -46,
+      "client": 2,
+      "kind": "mp4",
+      "at": 60177
+    },
+    {
+      "ms": -85,
+      "client": 3,
+      "kind": "youtube",
+      "at": 60177
+    },
+    {
+      "ms": -62,
+      "client": 4,
+      "kind": "mp4",
+      "at": 60177
+    },
+    {
+      "ms": -78,
+      "client": 5,
+      "kind": "youtube",
+      "at": 60177
+    },
+    {
+      "ms": -76,
+      "client": 6,
+      "kind": "mp4",
+      "at": 60177
+    },
+    {
+      "ms": -90,
+      "client": 7,
+      "kind": "youtube",
+      "at": 60177
+    },
+    {
+      "ms": -64,
+      "client": 8,
+      "kind": "mp4",
+      "at": 60177
+    },
+    {
+      "ms": -71,
+      "client": 9,
+      "kind": "youtube",
+      "at": 60177
+    },
+    {
+      "ms": -78,
+      "client": 0,
+      "kind": "mp4",
+      "at": 60578
+    },
+    {
+      "ms": -60,
+      "client": 1,
+      "kind": "youtube",
+      "at": 60578
+    },
+    {
+      "ms": -48,
+      "client": 2,
+      "kind": "mp4",
+      "at": 60578
+    },
+    {
+      "ms": -86,
+      "client": 3,
+      "kind": "youtube",
+      "at": 60578
+    },
+    {
+      "ms": -313,
+      "client": 4,
+      "kind": "mp4",
+      "at": 60578
+    },
+    {
+      "ms": -80,
+      "client": 5,
+      "kind": "youtube",
+      "at": 60578
+    },
+    {
+      "ms": -79,
+      "client": 6,
+      "kind": "mp4",
+      "at": 60578
+    },
+    {
+      "ms": -93,
+      "client": 7,
+      "kind": "youtube",
+      "at": 60578
+    },
+    {
+      "ms": -65,
+      "client": 8,
+      "kind": "mp4",
+      "at": 60578
+    },
+    {
+      "ms": -72,
+      "client": 9,
+      "kind": "youtube",
+      "at": 60578
+    },
+    {
+      "ms": -27,
+      "client": 0,
+      "kind": "mp4",
+      "at": 62181
+    },
+    {
+      "ms": -27,
+      "client": 1,
+      "kind": "youtube",
+      "at": 62181
+    },
+    {
+      "ms": -29,
+      "client": 2,
+      "kind": "mp4",
+      "at": 62181
+    },
+    {
+      "ms": -44,
+      "client": 3,
+      "kind": "youtube",
+      "at": 62181
+    },
+    {
+      "ms": 103,
+      "client": 4,
+      "kind": "mp4",
+      "at": 62181
+    },
+    {
+      "ms": -29,
+      "client": 5,
+      "kind": "youtube",
+      "at": 62181
+    },
+    {
+      "ms": -43,
+      "client": 6,
+      "kind": "mp4",
+      "at": 62181
+    },
+    {
+      "ms": -52,
+      "client": 7,
+      "kind": "youtube",
+      "at": 62181
+    },
+    {
+      "ms": -36,
+      "client": 8,
+      "kind": "mp4",
+      "at": 62181
+    },
+    {
+      "ms": -48,
+      "client": 9,
+      "kind": "youtube",
+      "at": 62181
+    }
+  ]
+}
